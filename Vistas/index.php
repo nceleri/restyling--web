@@ -3,52 +3,85 @@
 ?>
 		<!-- CAROUSEL CON NAVEGACION -->
 		<div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
-			<!-- indicadores -->
-			<ol class="carousel-indicators">
-				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			</ol>
-			 <!-- fin indicadore  -->
-			<div class="carousel-inner alto">				
+			<div class="carousel-inner alto p-0 m-0">	
+
 				<div class="carousel-item  active ">
-					<img src="../img/celular/gestiontarjeta.jpg	" class="img-fluid d-sm-none"  alt="...">
-					<img src="../img/gestiontarjeta1.jpg" class="img-fluid d-none d-lg-block"  alt="...">
-					<img src="../img/tablet/gestiontarjeta_tbt_v.jpg" class="img-fluid d-none d-sm-block d-md-none"  alt="..."> 
-					<img src="../img/tablet/gestiontarjeta_tbt_h.jpg" class="img-fluid d-none d-md-block d-lg-none"  alt="...">
+					<img src="../img/index/6.png" class="img-fluid d-sm-none"  alt="...">
+					<img src="../img/index/1.png" class="img-fluid d-none d-lg-block"  alt="...">
 					
-						<div class="carousel-caption col-md-4">
-							<h2 class="font-weight-bold titulo-slider">Tu Tarjeta a un solo click</h2>
-							<p> Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model texts</p>
-							<!-- <button type="button" class="btn btn-primary"><a class="link-slider-index" href="tarjeta.php#solicita_tarjeta" >Pedi la Tuya</a></button> -->
-							<a class="btn btn-primary" href="tarjeta.php#solicita_tarjeta" role="button">Pedi la Tuya</a>
+						<div class="carousel-caption col-md-6 d-none d-md-block">
+							<h2 class="font-weight-bold titulo-slider text-light">Solicitá tu tarjeta CREDIFIAR</h2>
+							<p class="col-md-6 text-light text-carousel-caption p-0" >Mínimos requisitos.
+							</p>
+							<p class="col-md-6 text-light text-carousel-caption p-0" >Beneficios todo el año
+							</p>
+							<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
 							</p>
 						</div>
 					
 				</div>
-				<!-- <div class="carousel-item   ">
-					<img src="../img/celular/comerciosAmigos_giro.jpg	" class="img-fluid d-sm-none"  alt="...">
-					<img src="../img/comerciosAmigos_giro.jpg	" class="img-fluid d-none d-lg-block"  alt="...">
-					<img src="../img/tablet/comerciosAmigos_giro_tbt_v.jpg" class="img-fluid d-none d-sm-block d-md-none"  alt="..."> 
-					<img src="../img/tablet/comerciosAmigos_giro_tbt_h.jpg" class="img-fluid d-none d-md-block d-lg-none"  alt="...">
-					<div class="carousel-caption">
-    					<h2 class="font-weight-bold">Conoce todos los comercios adheridos</h2>
-						<p> Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'</p>
-						<button type="button" class="btn btn-primary"><a class="link-slider-index" href="tarjeta.php#solicita_tarjeta" >Enterate</a></button>
-  					</div>
-				</div>
+
 				<div class="carousel-item   ">
-					<img src="../img/celular/comercios.jpg	" class="img-fluid d-sm-none"  alt="...">
-					<img src="../img/comercios.jpg	" class="img-fluid d-none d-lg-block"  alt="...">
-					<img src="../img/tablet/comercios_tbt_v.jpg" class="img-fluid d-none d-sm-block d-md-none"  alt="..."> 
-					<img src="../img/tablet/comercios_tbt_h.jpg" class="img-fluid d-none d-md-block d-lg-none"  alt="...">
-					<div class="carousel-caption">
-    					<h2 class="font-weight-bold">Sumate a nuetros equipo</h2>
-						<p> Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'</p>
-						<button type="button" class="btn btn-primary"><a class="link-slider-index" href="tarjeta.php#solicita_tarjeta" >Sumate</a></button>
-  					</div>
-				</div> -->
+					<img src="../img/index/7.png" class="img-fluid d-sm-none"  alt="...">
+					<img src="../img/index/2.png" class="img-fluid d-none d-lg-block"  alt="...">
+
+					<div class="carousel-caption col-md-6 d-none d-md-block">
+						<h2 class="font-weight-bold titulo-slider text-light">Solicitá tu tarjeta CREDIFIAR</h2>
+						<p class="col-md-6 text-light text-carousel-caption p-0" >Mínimos requisitos.
+						</p>
+						<p class="col-md-6 text-light text-carousel-caption p-0" >Beneficios todo el año
+						</p>
+						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="carousel-item   ">
+					<img src="../img/index/8.png" class="img-fluid d-sm-none"  alt="...">
+					<img src="../img/index/3.png" class="img-fluid d-none d-lg-block"  alt="...">
+
+					<div class="carousel-caption col-md-6 d-none d-md-block">
+						<h2 class="font-weight-bold titulo-slider text-light">Solicitá tu tarjeta CREDIFIAR</h2>
+						<p class="col-md-6 text-light text-carousel-caption p-0" >Mínimos requisitos.
+						</p>
+						<p class="col-md-6 text-light text-carousel-caption p-0" >Beneficios todo el año
+						</p>
+						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="carousel-item   ">
+					<img src="../img/index/9.png" class="img-fluid d-sm-none"  alt="...">
+					<img src="../img/index/4.png" class="img-fluid d-none d-lg-block"  alt="...">
+
+					<div class="carousel-caption col-md-6 d-none d-md-block">
+						<h2 class="font-weight-bold titulo-slider text-light">Solicitá tu tarjeta CREDIFIAR</h2>
+						<p class="col-md-6 text-light text-carousel-caption p-0" >Mínimos requisitos.
+						</p>
+						<p class="col-md-6 text-light text-carousel-caption p-0" >Beneficios todo el año
+						</p>
+						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="carousel-item   ">
+					<img src="../img/index/10.png" class="img-fluid d-sm-none"  alt="...">
+					<img src="../img/index/5.png" class="img-fluid d-none d-lg-block"  alt="...">
+
+					<div class="carousel-caption col-md-6 d-none d-md-block">
+						<h2 class="font-weight-bold titulo-slider text-light">Solicitá tu tarjeta CREDIFIAR</h2>
+						<p class="col-md-6 text-light text-carousel-caption p-0" >Mínimos requisitos.
+						</p>
+						<p class="col-md-6 text-light text-carousel-caption p-0" >Beneficios todo el año
+						</p>
+						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
+						</p>
+					</div>
+				</div>
 			</div>
+
 			<!-- flechas -->
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 				<i class="fas fa-chevron-left fa-5x"></i>
@@ -63,27 +96,16 @@
 		</div>
 
 		<!-- SOLICITAR TURNO -->	
-		<div id="turno_index" class="container-fluid  p-0 m-0 alto-trabaja d-flex align-items-center">
-
-			<div class="row p-0 m-0 ">
-
-				<div class="col-md-6 d-flex align-items-center text-center">
-					<div class="jumbotron bg-transparente align-content-center">
-						<!-- <h1 class="display-1"></h1> -->
+		<div id="turno_index" class="container-fluid d-flex align-items-center justify-content-center p-0 m-0">
+			<div class="row d-flex align-items-center text-center">
+				<div class="col-md-12 my-md-5">
+					<div class="jumbotron bg-transparente py-4">
+						<i class="fas fa-calendar-alt fa-5x"></i>
 						<h3 class="tituloVentajas">Solicitá un turno para ser atendido en cualquiera de nuestras sucursales.</h3>
-						<hr class="my-2">
-						<p class="lead">
-						<a class="btn btn-primary" href="turnos.php" role="button">Gestionar Turno</a>
-						</p>
+						<a class="btn pildora-amarilla" href="turnos.php" role="button">GESTIONAR TURNO</a>
 					</div>
-				</div>	
-
-				<div class="col-md-6 ">
-                    <img src="../img/mujer-pide-turno.jpg" alt="" class="img-fluid">
-                </div>
-
-			</div>
-			
+				</div>
+			</div>			
 		</div>
 
 		<!-- LUGARES DE PAGO -->

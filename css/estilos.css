@@ -200,6 +200,30 @@ body{
 	color: #1B52A2;
 }
 
+/* posicion del caption */
+.carousel-caption {
+	width: auto;
+	z-index: 10; 
+	color: #1B52A2; 
+	text-align: center;
+	top: 20%;
+	left: 10%;
+	bottom: auto; 
+}
+
+/* .btn-carousel-caption */
+	.pildora-amarilla{
+	border-radius: 2rem;
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: #1B52A2;
+	background-color: rgb(227, 252, 0);
+}
+
+.text-carousel-caption{
+	font-size: 1.7rem;
+	margin: 0%;
+}
 
 /* --- PROMOCIONES --- */
 .promociones {
@@ -286,7 +310,7 @@ body{
 .tituloVentajas , .tituloPromociones , .tituloComercios{
 	padding: 10px 0;
 	text-align: center;
-	color: black;
+	color:#1B52A2;
 	font-family: 'credifiar';
 	font-weight: 300;
 }
