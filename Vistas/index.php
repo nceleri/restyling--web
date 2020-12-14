@@ -6,18 +6,18 @@
 			<div class="carousel-inner alto p-0 m-0">	
 
 				<div class="carousel-item  active ">
-					<img src="../img/index/6.png" class="img-fluid d-sm-none"  alt="...">
-					<img src="../img/index/1.png" class="img-fluid d-none d-lg-block"  alt="...">
-					
-						<div class="carousel-caption col-md-6 d-none d-md-block">
-							<h2 class="font-weight-bold titulo-slider text-light">Solicitá tu tarjeta CREDIFIAR</h2>
-							<p class="col-md-6 text-light text-carousel-caption p-0" >Mínimos requisitos.
-							</p>
-							<p class="col-md-6 text-light text-carousel-caption p-0" >Beneficios todo el año
-							</p>
-							<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
-							</p>
-						</div>
+					<img src="../img/index/6.png" class="img-fluid d-sm-none"  alt="tarjeta-credifiar">
+					<img src="../img/index/Sliders-tarjeta-fondo.png" class="img-fluid d-none d-lg-block"  alt="tarjeta-credifiar">
+				
+					<div class="carousel-caption col-md-6 d-none d-md-block">
+						<h2 class="font-weight-bold titulo-slider ">Solicitá tu tarjeta CREDIFIAR</h2>
+						<p class="col-md-6 text-carousel-caption p-0" >Mínimos requisitos.
+						</p>
+						<p class="col-md-6 text-carousel-caption p-0" >Beneficios todo el año
+						</p>
+						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
+						</p>
+					</div>
 					
 				</div>
 
@@ -26,10 +26,10 @@
 					<img src="../img/index/2.png" class="img-fluid d-none d-lg-block"  alt="...">
 
 					<div class="carousel-caption col-md-6 d-none d-md-block">
-						<h2 class="font-weight-bold titulo-slider text-light">Solicitá tu tarjeta CREDIFIAR</h2>
-						<p class="col-md-6 text-light text-carousel-caption p-0" >Mínimos requisitos.
+						<h2 class="font-weight-bold titulo-slider">Solicitá tu tarjeta CREDIFIAR</h2>
+						<p class="col-md-6 text-carousel-caption p-0" >Mínimos requisitos.
 						</p>
-						<p class="col-md-6 text-light text-carousel-caption p-0" >Beneficios todo el año
+						<p class="col-md-6 text-carousel-caption p-0" >Beneficios todo el año
 						</p>
 						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
 						</p>
@@ -41,10 +41,10 @@
 					<img src="../img/index/3.png" class="img-fluid d-none d-lg-block"  alt="...">
 
 					<div class="carousel-caption col-md-6 d-none d-md-block">
-						<h2 class="font-weight-bold titulo-slider text-light">Solicitá tu tarjeta CREDIFIAR</h2>
-						<p class="col-md-6 text-light text-carousel-caption p-0" >Mínimos requisitos.
+						<h2 class="font-weight-bold titulo-slider">Solicitá tu tarjeta CREDIFIAR</h2>
+						<p class="col-md-6 text-carousel-caption p-0" >Mínimos requisitos.
 						</p>
-						<p class="col-md-6 text-light text-carousel-caption p-0" >Beneficios todo el año
+						<p class="col-md-6 text-carousel-caption p-0" >Beneficios todo el año
 						</p>
 						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
 						</p>
@@ -52,18 +52,8 @@
 				</div>
 
 				<div class="carousel-item   ">
-					<img src="../img/index/9.png" class="img-fluid d-sm-none"  alt="...">
-					<img src="../img/index/4.png" class="img-fluid d-none d-lg-block"  alt="...">
-
-					<div class="carousel-caption col-md-6 d-none d-md-block">
-						<h2 class="font-weight-bold titulo-slider text-light">Solicitá tu tarjeta CREDIFIAR</h2>
-						<p class="col-md-6 text-light text-carousel-caption p-0" >Mínimos requisitos.
-						</p>
-						<p class="col-md-6 text-light text-carousel-caption p-0" >Beneficios todo el año
-						</p>
-						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
-						</p>
-					</div>
+					<img src="../img/index/9.png" class="img-fluid d-sm-none"  alt="prestamos-en-efectivo">
+					<img src="../img/index/4.png" class="img-fluid d-none d-lg-block"  alt="prestamos-en-efectivo">
 				</div>
 
 				<div class="carousel-item   ">
@@ -71,10 +61,10 @@
 					<img src="../img/index/5.png" class="img-fluid d-none d-lg-block"  alt="...">
 
 					<div class="carousel-caption col-md-6 d-none d-md-block">
-						<h2 class="font-weight-bold titulo-slider text-light">Solicitá tu tarjeta CREDIFIAR</h2>
-						<p class="col-md-6 text-light text-carousel-caption p-0" >Mínimos requisitos.
+						<h2 class="font-weight-bold titulo-slider">Solicitá tu tarjeta CREDIFIAR</h2>
+						<p class="col-md-6 text-carousel-caption p-0" >Mínimos requisitos.
 						</p>
-						<p class="col-md-6 text-light text-carousel-caption p-0" >Beneficios todo el año
+						<p class="col-md-6 text-carousel-caption p-0" >Beneficios todo el año
 						</p>
 						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
 						</p>
@@ -114,9 +104,9 @@
 				<div class="col-md-6">
 					<div class="jumbotron bg-transparente">
 						<h3 class="tituloVentajas">Conocé nuestros puntos de pago</h3>
-						<hr class="my-2">
-						<p class="lead">
-						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#lugares-modal">Ver Lugares</button>
+						<!-- <hr class="my-2">
+						<p class="lead"> -->
+						<button type="button" class="btn pildora-amarilla" data-toggle="modal" data-target="#lugares-modal">VER PUNTOS DE PAGO</button>
 						<!-- Modal -->
 						<div class="modal fade" id="lugares-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							<div class="modal-dialog modal-lg ">
@@ -158,35 +148,35 @@
 		<div class="container alto-ubicaciones d-flex" id="promociones">
 			<div class="row mt-3 promociones align-content-center">
 				<div class="col">
-					<h2 class="tituloPromociones">Promociones</h2>
+					<h2 class="tituloPromociones">PRMOCIONES</h2>
 					<div class="row galeriaPromociones justify-content-center">
 						
 						<div class="contenedor-imagen col-md-6">
 							<a href="#" data-toggle="modal" data-target="#exampleModal">
-								<img src="../img/mes-del-padre.jpg" class="img-fluid imagen" alt="">
+								<img src="../img/index/Promo_1.png" class="img-fluid imagen" alt="">
 							</a>
 						</div>
 
 						<div class="contenedor-imagen col-md-6">
 							<a href="#" data-toggle="modal" data-target="#exampleModal">
-								<img src="../img/super.jpg" class="img-fluid imagen" alt="">
+								<img src="../img/index/Promo_2.png" class="img-fluid imagen" alt="">
 							</a>
 						</div>
 						
 						<div class="contenedor-imagen col-md-6">
 							<a href="#" data-toggle="modal" data-target="#exampleModal">
-								<img src="../img/farmacias.jpg" class="img-fluid imagen" alt="">
+								<img src="../img/index/Promo_3.png" class="img-fluid imagen" alt="">
 							</a>
 						</div>
 						<div class="contenedor-imagen col-md-6">
 							<a href="#" data-toggle="modal" data-target="#exampleModal">
-								<img src="../img/farmacias.jpg" class="img-fluid imagen" alt="">
+								<img src="../img/index/Promo_4.png" class="img-fluid imagen" alt="">
 							</a>
 						</div>					
 						<div class="modal fade" id="modal">
 							<div class="modal-dialog d-flex justify-content-center align-items-center">
 								<div class="modal-content">
-									<img src="" alt="" id="imagen-modal" class="img-fluid imagen">
+									<img src="../img/index/Promo_1.png" alt="" id="imagen-modal" class="img-fluid imagen">
 								</div>
 							</div>
 						</div> 
@@ -309,7 +299,7 @@
 		<div class="container-fluid alto locales d-none d-lg-block">
 			<div class="row mt-3">
 				<div class="col-12 text-center">
-					<h2 class="tituloComercios">Nuestros Locales</h2>
+					<h2 class="tituloComercios">NUESTROS LOCALES</h2>
 				</div>
 				<div class="col-4 pl-5">
 					<div class="list-group " id="list-tab" role="tablist">

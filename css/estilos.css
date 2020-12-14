@@ -23,13 +23,17 @@ body{
 }
 
 .navbarSup{
+	background: #1B52A2;
+	transition: none;
+}
+/* .navbarSup{
 	background: rgba(183,183,183,.6);
 	transition: all ease-in-out 300ms;
-}
+} */
 
 .navbar-brand{
-	width: 4.8rem;
-	margin-right: 0;
+	width: 12rem;
+	margin-right: 1rem;
 	padding: 0.5rem;
 }
 
@@ -60,16 +64,18 @@ body{
 	color: white;
 }
 
+#btn-ingreso{
+	border-radius: 2rem;
+	font-size: 1.3rem;
+	font-weight: 700;
+}
+
 /* #link-nav{ */
 #desplegable{	
 	color: white;
-	font-size: 1.2rem; 
+	font-size: 1.5rem; 
 	font-weight: 400;
 }
-
-/* .navbar-expand-lg .navbar-nav .nav-link{
-
-} */
 
 .bg-desplegable{
 	background: rgba(183,183,183,.9);
@@ -244,7 +250,7 @@ body{
 	overflow: hidden;
 }
 .promociones .galeriaPromociones .contenedor-imagen a{
-	background: #1B52A2;
+	/* background: #1B52A2; */
 	display: inline-block;
 }
 .promociones .galeriaPromociones .contenedor-imagen:hover img{
@@ -269,7 +275,7 @@ body{
 /* VENTAJAS */
 
 .fondo-ventajas{
-	background: url(../img/posnet.jpg) no-repeat center;
+	background: url(../img//index/lugares.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -301,18 +307,20 @@ body{
 	font-weight: 300;
 }
 
-.tituloComercios{
+/* .tituloComercios{
 	font-size: 2.5rem;
 	font-weight: 900;
 	color: #1B52A2 !important;
-}
+} */
 
 .tituloVentajas , .tituloPromociones , .tituloComercios{
 	padding: 10px 0;
 	text-align: center;
 	color:#1B52A2;
 	font-family: 'credifiar';
-	font-weight: 300;
+	font-size: 2rem;
+	font-weight: 900;
+	/* color: #1B52A2 !important; */
 }
 /* FOOTER */
 .footer {
@@ -373,11 +381,6 @@ body{
 
 .nav-link-iconos-footer:hover{	
 	color: tomato;
-}
-
-.collapse .navbar-nav .nav-item .nav-link:hover{
-	color:yellow;  /* no anda */ 
-
 }
 
 #legales{

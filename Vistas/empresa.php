@@ -2,12 +2,13 @@
 	include ("nav.php");
 ?>
 
-		<div class="container alto-consumo m-superior-empresa d-flex" name="empresa">	
+		<div class="container-fluid alto-consumo m-superior-empresa d-flex" name="empresa">	
 			<div class="row align-content-center">				
-				<div class="col-md-6 m-md-0 p-md-0 d-md-none d-lg-block">
-					<img class=" img-fluid" src="../img/la-empresa.jpg" alt="">
+				<div class="col-12">
+					<img class=" img-fluid d-none d-md-block" src="../img/index/Laempresa.jpg" alt="">
+					<img class=" img-fluid d-md-none" src="../img/index/LaEmpresa_mobile.jpg" alt="">					
 				</div>
-				<div class="col-lg-6 m-md-0 p-md-0">				
+				<div class="col-md-8 offset-md-2 mt-5">				
 					<h2 >La Empresa</h2>
 					<p class="text-justify texto-empresa lead p-2">Credifiar es una empresa dedicada a la prestación de servicios financieros que hace más de 10 años se destaca en el mercado santafesino ofreciendo a sus clientes la mejor financiación. Con más de 2000 comercios adheridos tanto en la ciudad como en la región y más de 50.000 clientes, Credifiar trabaja junto a los comercios generando promociones, descuentos y planes de cuotas para brindarles a los clientes la posibilidad de comprar en forma más cómoda y accesible.
 					Credifiar, una empresa que confía en vos.</p>	
