@@ -20,7 +20,7 @@
 			<!-- barra principal   -->
 			<nav class="navbar navbar-expand-lg  navbar-light  fixed-top navbarSup py-3 px-1">
 				<a class="navbar-brand" href="index.php">
-					<img src="../img/index/credifiar-logo.png" class="img-fluid" alt="">
+					<img src="../img/index/credifiar-logo.png" class="img-fluid" alt="credifiar-logo">
 				</a>
 				<button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -37,26 +37,33 @@
                             <button class="btn bg-transparent px-0" type="button" id="desplegable" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cliente</button>
                                                        
                             <ul class="dropdown-menu bg-desplegable" role="menu" aria-labelledby="desplegable">
-								<li role="presentation" class="dropdown-header">Turnos</li>
-                                <li><a class="dropdown-item" tabindex="-1" href="index.php#turno_index">Solicita un turno</a></li>
-                                <li role="presentation" class="dropdown-header">Tarjeta</li>
-                                <li><a class="dropdown-item" tabindex="-1" href="tarjeta.php" >Tarjeta de Crédito</a></li>
-                                <li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#requisitos_tarjeta" >Requisitos</a></li>
-                                <li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#solicita_tarjeta" >Pedi la Tuya</a></li>
-                                <li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#inicio_sesion_tarjeta" >Seguimiento de Cuenta</a></li>
-                                <li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#resumen_tarjeta" >Resumen de Tarjeta</a></li>
-                                <li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#comercios_tarjeta" >Comercios Adheridos</a></li>
-                                <li role="presentation" class="divider"></li>
-                                <li role="presentation" class="dropdown-header">Préstamos Personales</li>
-                                <li><a class="dropdown-item" tabindex="-1" href="prestamos_personales.php">Préstamos</a></li>
-                                <li><a class="dropdown-item" tabindex="-1" href="prestamos_personales.php#solicita_prestamo">Pedí tu Péstamo</a></li>
-                                <li><a class="dropdown-item" tabindex="-1" href="prestamos_personales.php#requisitos_prestamo">Requisitos</a></li>
-                                <li role="presentation" class="divider"></li>
-                                <li role="presentation" class="dropdown-header">Créditos de Consumo</li>
-                                <li><a class="dropdown-item"tabindex="-1"  href="credito_consumo.php">Créditos</a></li>
-                                <li><a class="dropdown-item" tabindex="-1" href="credito_consumo.php#requisitos_credito">Requisitos</a></li>
-                                <li><a class="dropdown-item" tabindex="-1" href="credito_consumo.php#comercios_credito">Pedí tu Péstamo</a></li>
-                                <li><a class="dropdown-item" tabindex="-1" href="credito_consumo.php#lugares_pago_credito">Requisitos</a></li>
+								<div class="col-12 d-flex flex-row">
+									<div class="col-6">
+										<li role="presentation" class="dropdown-header">Turnos</li>
+										<li><a class="dropdown-item" tabindex="-1" href="index.php#turno_index">Solicita un turno</a></li>
+										<li role="presentation" class="dropdown-header">Tarjeta</li>
+										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php" >Tarjeta de Crédito</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#requisitos_tarjeta" >Requisitos</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#solicita_tarjeta" >Pedi la Tuya</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#inicio_sesion_tarjeta" >Seguimiento de Cuenta</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#resumen_tarjeta" >Resumen de Tarjeta</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#comercios_tarjeta" >Comercios Adheridos</a></li>
+										<li role="presentation" class="divider"></li>
+									</div> 
+
+									<div class="col-6">
+										<li role="presentation" class="dropdown-header">Préstamos Personales</li>
+										<li><a class="dropdown-item" tabindex="-1" href="prestamos_personales.php">Préstamos</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="prestamos_form.php">Pedí tu Péstamo</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="prestamos_personales.php#requisitos_prestamo">Requisitos</a></li>
+										<li role="presentation" class="divider"></li>
+										<li role="presentation" class="dropdown-header">Créditos de Consumo</li>
+										<li><a class="dropdown-item"tabindex="-1"  href="credito_consumo.php">Créditos</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="credito_consumo.php#requisitos_credito">Requisitos</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="credito_consumo.php#comercios_credito">Pedí tu Péstamo</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="credito_consumo.php#lugares_pago_credito">Requisitos</a></li>
+									</div>
+								</div>
                             </ul>
 
                         </li>                     

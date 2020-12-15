@@ -3,10 +3,10 @@
 ?>
 
 		<div class="container-fluid alto-consumo m-superior-empresa d-flex" name="empresa">	
-			<div class="row align-content-center">				
+			<div class="row align-content-center p-0 m-0">				
 				<div class="col-12">
-					<img class=" img-fluid d-none d-md-block" src="../img/index/Laempresa.jpg" alt="">
-					<img class=" img-fluid d-md-none" src="../img/index/LaEmpresa_mobile.jpg" alt="">					
+					<img class=" img-fluid d-none d-md-block" src="../img/1x/Laempresa.jpg" alt="">
+					<img class=" img-fluid d-md-none" src="../img/1x/LaEmpresaMobile.jpg" alt="">					
 				</div>
 				<div class="col-md-8 offset-md-2 mt-5">				
 					<h2 >La Empresa</h2>

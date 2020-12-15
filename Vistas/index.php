@@ -11,63 +11,56 @@
 				
 					<div class="carousel-caption col-md-6 d-none d-md-block">
 						<h2 class="font-weight-bold titulo-slider ">Solicitá tu tarjeta CREDIFIAR</h2>
-						<p class="col-md-6 text-carousel-caption p-0" >Mínimos requisitos.
-						</p>
-						<p class="col-md-6 text-carousel-caption p-0" >Beneficios todo el año
-						</p>
-						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
-						</p>
+						<p class="col-md-6 text-carousel-caption p-0" >Mínimos requisitos</p>
+						<p class="col-md-6 text-carousel-caption p-0" >Beneficios todo el año</p>
+						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta_form.php" role="button">SOLICITALA AQUÍ</a>
 					</div>
 					
 				</div>
 
-				<div class="carousel-item   ">
+				<!-- <div class="carousel-item   ">
 					<img src="../img/index/7.png" class="img-fluid d-sm-none"  alt="...">
 					<img src="../img/index/2.png" class="img-fluid d-none d-lg-block"  alt="...">
 
 					<div class="carousel-caption col-md-6 d-none d-md-block">
 						<h2 class="font-weight-bold titulo-slider">Solicitá tu tarjeta CREDIFIAR</h2>
-						<p class="col-md-6 text-carousel-caption p-0" >Mínimos requisitos.
-						</p>
-						<p class="col-md-6 text-carousel-caption p-0" >Beneficios todo el año
-						</p>
-						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
-						</p>
+						<p class="col-md-6 text-carousel-caption p-0" >Mínimos requisitos</p>
+						<p class="col-md-6 text-carousel-caption p-0" >Beneficios todo el año</p>
+						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">SOLICITALA AQUÍ</a>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="carousel-item   ">
-					<img src="../img/index/8.png" class="img-fluid d-sm-none"  alt="...">
-					<img src="../img/index/3.png" class="img-fluid d-none d-lg-block"  alt="...">
+					<img src="../img/index/8.png" class="img-fluid d-sm-none"  alt="beneficios-tarjeta-credifiar">
+					<img src="../img/index/3.png" class="img-fluid d-none d-lg-block"  alt="beneficios-tarjeta-credifiar">
 
 					<div class="carousel-caption col-md-6 d-none d-md-block">
-						<h2 class="font-weight-bold titulo-slider">Solicitá tu tarjeta CREDIFIAR</h2>
-						<p class="col-md-6 text-carousel-caption p-0" >Mínimos requisitos.
-						</p>
-						<p class="col-md-6 text-carousel-caption p-0" >Beneficios todo el año
-						</p>
-						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
-						</p>
+						<h2 class="font-weight-bold titulo-slider">Conocé los beneficios de Tarjeta Credifiar</h2>
+						<p class="col-md-6 text-carousel-caption p-0" >DESCUENTOS</p>
+						<p class="col-md-6 text-carousel-caption p-0" >CUOTAS SIN INTERÉS</p>
+						<p class="col-md-10 text-carousel-caption p-0" >+ DE 2000 COMERCIOS ADHERIDOS</p>
+						<a class="btn pildora-amarilla my-md-2 p-md-2" href="index.php#promociones" role="button">SOLICITALA AQUÍ</a>
 					</div>
 				</div>
 
+				<!-- sin texto -->
 				<div class="carousel-item   ">
 					<img src="../img/index/9.png" class="img-fluid d-sm-none"  alt="prestamos-en-efectivo">
 					<img src="../img/index/4.png" class="img-fluid d-none d-lg-block"  alt="prestamos-en-efectivo">
+					<div class="carousel-caption col-md-6 d-none d-md-block sintexto">
+						<a class="btn pildora-amarilla my-md-2 p-md-2" href="prestamos_form.php" role="button">SOLICITALO AQUÍ</a>		
+					</div>
 				</div>
 
 				<div class="carousel-item   ">
-					<img src="../img/index/10.png" class="img-fluid d-sm-none"  alt="...">
-					<img src="../img/index/5.png" class="img-fluid d-none d-lg-block"  alt="...">
+					<img src="../img/index/10.png" class="img-fluid d-sm-none"  alt="tarjeta-credifiar-argencard">
+					<img src="../img/index/5.png" class="img-fluid d-none d-lg-block"  alt="tarjeta-credifiar-argencard">
 
 					<div class="carousel-caption col-md-6 d-none d-md-block">
-						<h2 class="font-weight-bold titulo-slider">Solicitá tu tarjeta CREDIFIAR</h2>
-						<p class="col-md-6 text-carousel-caption p-0" >Mínimos requisitos.
-						</p>
-						<p class="col-md-6 text-carousel-caption p-0" >Beneficios todo el año
-						</p>
-						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">PEDILA AQUÍ</a>
-						</p>
+						<h2 class="font-weight-bold titulo-slider">Nueva tarjeta</h2>
+						<h2 class="font-weight-bold">CREDIFIAR – ARGENCARD</h2>
+						<p class="col-md-6 text-carousel-caption p-0" >Podés comprar en más de 300.000 comercios en todo el país!</p>
+						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">SOLICITALA AQUÍ</a>	
 					</div>
 				</div>
 			</div>
@@ -91,7 +84,7 @@
 				<div class="col-md-12 my-md-5">
 					<div class="jumbotron bg-transparente py-4">
 						<i class="fas fa-calendar-alt fa-5x"></i>
-						<h3 class="tituloVentajas">Solicitá un turno para ser atendido en cualquiera de nuestras sucursales.</h3>
+						<h3 class="tituloVentajas">Solicita online tu turno para atención en sucursales</h3>
 						<a class="btn pildora-amarilla" href="turnos.php" role="button">GESTIONAR TURNO</a>
 					</div>
 				</div>

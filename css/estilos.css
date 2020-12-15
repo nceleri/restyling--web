@@ -217,6 +217,16 @@ body{
 	bottom: auto; 
 }
 
+.sintexto{
+	width: auto;
+	z-index: 10; 
+	color: #1B52A2; 
+	text-align: center;
+	top: 60%;
+	left: 10%;
+	bottom: auto; 
+}
+
 /* .btn-carousel-caption */
 	.pildora-amarilla{
 	border-radius: 2rem;
@@ -337,7 +347,7 @@ body{
 	margin-bottom: 2rem;
 }
 .card-text-footer , .btn-footer{
-	font-size:0.9rem;
+	font-size:1.1rem;
 	color: white;
 	font-family: 'credifiar';
 	font-weight: 300;	
@@ -345,7 +355,7 @@ body{
 }
 
 .btn-footer:hover{
-	color: tomato !important;
+	color:rgb(227, 252, 0) !important;
 }
 
 .card-footer{
