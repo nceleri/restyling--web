@@ -16,21 +16,6 @@
 			</div>
 		</div>
 
-		<!-- <div class="container alto d-flex"> -->
-			<!-- <div class="row align-content-center justify-content-center">	 -->
-		<div class="container-fluid alto-trabaja  d-md-flex justify-content-center  " id="contadorEmpresa">
-			<div class="row align-content-center m-md-0 p-md-0 ">
-				<div class="col-12 m-md-0 p-md-0"  id="numeros-animados">
-					<h3></h3>
-					<div id="animacion-numeros" class="d-md-flex"> 
-						<div class="counter col-md-3 mr-md-3 text-center"><p class="numeros-grandes">0</p><h3 class="numeritos">Localidades</h3></div>
-						<div class="counter col-md-3 mr-md-3 text-center"><p class="numeros-grandes">0</p><h3 class="numeritos">Comercios</h3></div>
-						<div class="counter col-md-3 mr-md-3 text-center"><p class="numeros-grandes">0</p><h3 class="numeritos">Sucursales</h3></div>
-						<div class="counter col-md-3 mr-md-3 text-center"><p class="numeros-grandes">0</p><h3 class="numeritos">Años</h3></div>
-					</div>
-				</div>
-			</div>
-		</div>	
 		
 <?php
 	include ("footer.php");

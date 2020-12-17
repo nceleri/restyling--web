@@ -210,21 +210,26 @@ body{
 .carousel-caption {
 	width: auto;
 	z-index: 10; 
-	color: #1B52A2; 
-	text-align: center;
+	color: #1B52A2;
 	top: 20%;
 	left: 10%;
-	bottom: auto; 
+	/*	text-align: center;
+	 bottom: auto;  */
+	text-align: start;
+	bottom: 150px;
 }
+
 
 .sintexto{
 	width: auto;
 	z-index: 10; 
 	color: #1B52A2; 
-	text-align: center;
 	top: 60%;
 	left: 10%;
-	bottom: auto; 
+	text-align: start;
+	bottom: 150px;
+	/* text-align: center;
+	bottom: auto;  */
 }
 
 /* .btn-carousel-caption */
@@ -235,6 +240,7 @@ body{
 	color: #1B52A2;
 	background-color: rgb(227, 252, 0);
 }
+
 
 .text-carousel-caption{
 	font-size: 1.7rem;
@@ -256,7 +262,7 @@ body{
 }
 .promociones .galeriaPromociones .contenedor-imagen{
 	margin-bottom: 40px;
-	max-height: 180px;
+	max-height: 300px;
 	overflow: hidden;
 }
 .promociones .galeriaPromociones .contenedor-imagen a{
@@ -267,11 +273,6 @@ body{
 	opacity: .3;
 }
 
-.carousel-caption{
-	/* color:  #1B52A2; */
-	text-align: start;
-	bottom: 150px;
-}
 
 .link-slider-index{
 	text-decoration: none;
@@ -282,6 +283,9 @@ body{
 	font-size: 3rem;
 }
 
+.subtitulo-slider{
+	font-size: 2.4rem;
+}
 /* VENTAJAS */
 
 .fondo-ventajas{
@@ -304,17 +308,17 @@ body{
 
 .card-title-ubicaciones{
 	padding: 0 0;
-	text-align: center;
-	color: black;
+	text-align: start;
+	color:#1B52A2 ;
 	font-family: 'credifiar';
-	font-weight: 300;
+	/* font-weight: 300; */
 }
 .card-text-ubicaciones{
 	padding: 0 0;
-	text-align: center;
-	color: black;
+	text-align: start;
+	color:#1B52A2 ;
 	font-family: 'credifiar';
-	font-weight: 300;
+	/* font-weight: 300; */
 }
 
 /* .tituloComercios{
@@ -642,13 +646,56 @@ background: url(../img/ingreso_cliente.jpg) no-repeat center;
 		color: #1B52A2;
 	}
 
-	/* .titulo-slider{
-		font-size: 1rem;
+	.titulo-slider{
+		font-size: 1.5rem;
+	}
+	.subtitulo-slider{
+		font-size: 1.5rem;
 	}
 
 	.carousel-caption{
-		/* color:  #1B52A2; 
+		width: auto;
+		z-index: 10; 
+		color: #1B52A2; 
 		text-align: start;
-		bottom: 50px;
-	} */
+		top: 0;
+		left: 0;
+		bottom: auto; 
+	}
+
+	.text-carousel-caption{
+		font-size: 1rem;
+		margin: 0%;
+	}
+
+	.sintexto{
+		width: auto;
+		z-index: 10; 
+		color: #1B52A2; 
+		top: 80%;
+		left: 5%;
+		text-align: start;
+		/* bottom: 150px; */
+		/* text-align: center; */
+		bottom: auto;
+	}
+
+	.card-title-ubicaciones{
+		padding: 0 0;
+		text-align: start;
+		color:#1B52A2 ;
+		font-family: 'credifiar';
+		font-weight: 900;
+	}
+	.card-text-ubicaciones{
+		padding: 0 0;
+		text-align: start;
+		color:#1B52A2 ;
+		font-family: 'credifiar';
+		font-weight: 900;
+	}
+
+	.card-border{
+		border: 3px solid;
+	}
 }

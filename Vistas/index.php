@@ -6,10 +6,10 @@
 			<div class="carousel-inner alto p-0 m-0">	
 
 				<div class="carousel-item  active ">
-					<img src="../img/index/6.png" class="img-fluid d-sm-none"  alt="tarjeta-credifiar">
-					<img src="../img/index/Sliders-tarjeta-fondo.png" class="img-fluid d-none d-lg-block"  alt="tarjeta-credifiar">
+					<img src="../img/index/6.jpg" class="img-fluid d-sm-none"  alt="tarjeta-credifiar">
+					<img src="../img/index/1.png" class="img-fluid d-none d-lg-block"  alt="tarjeta-credifiar">
 				
-					<div class="carousel-caption col-md-6 d-none d-md-block">
+					<div class="carousel-caption col-md-6">
 						<h2 class="font-weight-bold titulo-slider ">Solicitá tu tarjeta CREDIFIAR</h2>
 						<p class="col-md-6 text-carousel-caption p-0" >Mínimos requisitos</p>
 						<p class="col-md-6 text-carousel-caption p-0" >Beneficios todo el año</p>
@@ -22,7 +22,7 @@
 					<img src="../img/index/7.png" class="img-fluid d-sm-none"  alt="...">
 					<img src="../img/index/2.png" class="img-fluid d-none d-lg-block"  alt="...">
 
-					<div class="carousel-caption col-md-6 d-none d-md-block">
+					<div class="carousel-caption col-md-6">
 						<h2 class="font-weight-bold titulo-slider">Solicitá tu tarjeta CREDIFIAR</h2>
 						<p class="col-md-6 text-carousel-caption p-0" >Mínimos requisitos</p>
 						<p class="col-md-6 text-carousel-caption p-0" >Beneficios todo el año</p>
@@ -34,7 +34,7 @@
 					<img src="../img/index/8.png" class="img-fluid d-sm-none"  alt="beneficios-tarjeta-credifiar">
 					<img src="../img/index/3.png" class="img-fluid d-none d-lg-block"  alt="beneficios-tarjeta-credifiar">
 
-					<div class="carousel-caption col-md-6 d-none d-md-block">
+					<div class="carousel-caption col-md-6">
 						<h2 class="font-weight-bold titulo-slider">Conocé los beneficios de Tarjeta Credifiar</h2>
 						<p class="col-md-6 text-carousel-caption p-0" >DESCUENTOS</p>
 						<p class="col-md-6 text-carousel-caption p-0" >CUOTAS SIN INTERÉS</p>
@@ -47,7 +47,7 @@
 				<div class="carousel-item   ">
 					<img src="../img/index/9.png" class="img-fluid d-sm-none"  alt="prestamos-en-efectivo">
 					<img src="../img/index/4.png" class="img-fluid d-none d-lg-block"  alt="prestamos-en-efectivo">
-					<div class="carousel-caption col-md-6 d-none d-md-block sintexto">
+					<div class="carousel-caption col-md-6 sintexto">
 						<a class="btn pildora-amarilla my-md-2 p-md-2" href="prestamos_form.php" role="button">SOLICITALO AQUÍ</a>		
 					</div>
 				</div>
@@ -56,9 +56,9 @@
 					<img src="../img/index/10.png" class="img-fluid d-sm-none"  alt="tarjeta-credifiar-argencard">
 					<img src="../img/index/5.png" class="img-fluid d-none d-lg-block"  alt="tarjeta-credifiar-argencard">
 
-					<div class="carousel-caption col-md-6 d-none d-md-block">
+					<div class="carousel-caption col-md-6">
 						<h2 class="font-weight-bold titulo-slider">Nueva tarjeta</h2>
-						<h2 class="font-weight-bold">CREDIFIAR – ARGENCARD</h2>
+						<h2 class="font-weight-bold subtitulo-slider">CREDIFIAR – ARGENCARD</h2>
 						<p class="col-md-6 text-carousel-caption p-0" >Podés comprar en más de 300.000 comercios en todo el país!</p>
 						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">SOLICITALA AQUÍ</a>	
 					</div>
@@ -146,13 +146,13 @@
 						
 						<div class="contenedor-imagen col-md-6">
 							<a href="#" data-toggle="modal" data-target="#exampleModal">
-								<img src="../img/index/Promo_1.png" class="img-fluid imagen" alt="">
+								<img src="../img/index/PromoComercio_texto.png" class="img-fluid imagen" alt="">
 							</a>
 						</div>
 
 						<div class="contenedor-imagen col-md-6">
 							<a href="#" data-toggle="modal" data-target="#exampleModal">
-								<img src="../img/index/Promo_2.png" class="img-fluid imagen" alt="">
+								<img src="../img/index/PromoSuper_texto.png" class="img-fluid imagen" alt="">
 							</a>
 						</div>
 						
@@ -219,67 +219,73 @@
 				<div class="card-deck ">
 
 					<div class="col-12 mb-sm-3">
-						<div class="card pb-4">
+						<div class="card pb-4  card-border">
 							<div class="card-body" >
 								<h5 class="card-title-ubicaciones font-weight-bold"> Casa Central</h5>
-								<p class="card-text-ubicaciones">1ra Junta 2675</p>
-								<p class="card-text-ubicaciones">3000 - Santa Fe</p>
-								<p class="card-text-ubicaciones">Tel: 0342 - 4579300</p>		
+								<p class="card-text-ubicaciones p-0 m-0">1ra Junta 2675</p>
+								<p class="card-text-ubicaciones p-0 m-0">3000 - Santa Fe</p>
+								<p class="card-text-ubicaciones p-0 m-0">Lunes a Viernes de 8 a 16 hs</p>
+								<p class="card-text-ubicaciones p-0 m-0 p-0 m-0">Sabado de 8 a 12 hs (2 Sabados por Mes)</p>
+
 							</div>
 							<div class="card-footer-ubicaciones text-muted text-center" >
-								<a href="https://goo.gl/maps/jenAKFo9fFkhk82y6" class="btn btn-primary" target="_blank">Ubicación</a>
+								<a href="https://goo.gl/maps/jenAKFo9fFkhk82y6" class="btn pildora-amarilla" target="_blank">Ubicación</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-12 mb-sm-3">
-						<div class="card pb-4" >
+						<div class="card pb-4 card-border" >
 								<div class="card-body" >
 								<h5 class="card-title-ubicaciones font-weight-bold">Sucursal Aristóbulo</h5>
-								<p class="card-text-ubicaciones">Av. Aristobulo del Valle 6857</p>
-								<p class="card-text-ubicaciones">3000 - Santa Fe</p>
-								<p class="card-text-ubicaciones">Tel: 0342 - 4579330</p>
+								<p class="card-text-ubicaciones p-0 m-0">Av. Aristobulo del Valle 6857</p>
+								<p class="card-text-ubicaciones p-0 m-0">3000 - Santa Fe</p>
+								<p class="card-text-ubicaciones p-0 m-0">Lunes a Viernes de 8 a 16 hs</p>
+								<p class="card-text-ubicaciones p-0 m-0">Sabado de 8 a 12 hs</p>
 							</div>
 							<div class="card-footer-ubicaciones text-muted text-center" >
-								<a href="https://goo.gl/maps/TT1Ggj52qVwvfC3b6" class="btn btn-primary" target="_blank">Ubicación</a>
+								<a href="https://goo.gl/maps/TT1Ggj52qVwvfC3b6" class="btn pildora-amarilla" target="_blank">Ubicación</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-12 mb-sm-3">
-						<div class="card pb-4" >
+						<div class="card pb-4 card-border" >
 							<div class="card-body" >
 								<h5 class="card-title-ubicaciones font-weight-bold">Sucursal Esperanza</h5>
-								<p class="card-text-ubicaciones">25 de Mayo 1414</p>
-								<p class="card-text-ubicaciones">3080 - Esperanza</p>
-								<p class="card-text-ubicaciones">Tel: 03496-423996</p>
+								<p class="card-text-ubicaciones p-0 m-0">25 de Mayo 1414</p>
+								<p class="card-text-ubicaciones p-0 m-0">3080 - Esperanza</p>
+								<p class="card-text-ubicaciones p-0 m-0">Lunes a Viernes de 8 a 16 hs</p>
+								<p class="card-text-ubicaciones p-0 m-0">Sabado de 8 a 12 hs</p>
 							</div>
 							<div class="card-footer-ubicaciones text-muted text-center" >
-								<a href="https://goo.gl/maps/qWwRQoseFSvujFNT8" class="btn btn-primary" target="_blank">Ubicación</a>
+								<a href="https://goo.gl/maps/qWwRQoseFSvujFNT8" class="btn pildora-amarilla" target="_blank">Ubicación</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-12 mb-sm-3">
-						<div class="card pb-4" >
+						<div class="card pb-4 card-border" >
 							<div class="card-body" >
 								<h5 class="card-title-ubicaciones font-weight-bold">Sucursal Parana</h5>
-								<p class="card-text-ubicaciones">Peru 67</p>
-								<p class="card-text-ubicaciones">3100 - Parana</p>
-								<p class="card-text-ubicaciones">Tel: 0342 - 155091084</p>
+								<p class="card-text-ubicaciones p-0 m-0">Peru 67</p>
+								<p class="card-text-ubicaciones p-0 m-0">3100 - Parana</p>
+								<p class="card-text-ubicaciones p-0 m-0">Lunes a Viernes de 11 a 18 hs</p>
+								<p class="card-text-ubicaciones p-0 m-0">Sabado de 9 a 13 hs</p>
 							</div>
 							<div class="card-footer-ubicaciones text-muted text-center" >
-								<a href="https://goo.gl/maps/rjLNoPHPm34Am4Yv6" class="btn btn-primary" target="_blank">Ubicación</a>
+								<a href="https://goo.gl/maps/rjLNoPHPm34Am4Yv6" class="btn pildora-amarilla" target="_blank">Ubicación</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-12 mb-sm-3">
-						<div class="card pb-4" >
+						<div class="card pb-4 card-border" >
 							<div class="card-body" >
-								<h5 class="card-title-ubicaciones ">Sucursal Ceres</h5>
-								<div><a class="">Sucursal Ceres:</a> Av Mayo 286 - Ceres</div>
-								<div>Lunes a Viernes de 8 a 16 hs.</div>
-								<div>Sabado de 8 a 12 hs.</div>
+								<h5 class="card-title-ubicaciones font-weight-bold">Sucursal Ceres</h5>
+								<p class="card-text-ubicaciones p-0 m-0">Av Mayo 286</p>
+								<p class="card-text-ubicaciones p-0 m-0">2340 - Ceres</p>
+								<p class="card-text-ubicaciones p-0 m-0">Lunes a Viernes de 8 a 16 hs.</p>
+								<p class="card-text-ubicaciones p-0 m-0">Sabado de 8 a 12 hs.</p>
 							</div>
 							<div class="card-footer-ubicaciones text-muted  text-center" >
-								<a href="https://goo.gl/maps/D3acKdh8hVpoPPtT8" class="btn btn-primary" target="_blank">Ubicación</a>
+								<a href="https://goo.gl/maps/D3acKdh8hVpoPPtT8" class="btn pildora-amarilla" target="_blank">Ubicación</a>
 							</div>
 						</div>	
 					</div>				
