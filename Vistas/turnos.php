@@ -248,10 +248,10 @@ function validarDNINuevo(numero){
 
 
   </script>
-      <div class="container m-superior">
-        <div class="row ">
+      <div class="container my-md-5 pt-md-5">
+        <div class="row my-md-3">
           <div class="col-12 ">
-            <div class="card mt-3 tab-card">
+            <div class="card my-3 tab-card card-borde-turno ">
               
                 <div class="card-header tab-card-header">
                   <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
@@ -271,7 +271,7 @@ function validarDNINuevo(numero){
                   <!-- TURNO NUEVO -->
                   <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one-tab">
                     <div class="container">
-                      <div class="row mt-3 pb-5">
+                      <div class="row mt-3 pb-5 ">
                         <div class="col-12 text-center">
                           <h3 class="text" style="font-size: 2rem;">Completá los datos y registrá tu turno de visita!</h3>
                         </div> 
@@ -364,12 +364,12 @@ function validarDNINuevo(numero){
                             </div>
                             <div class="row">
                                 <div class="form-group col-12 text-center mt-3">
-                                  <button class="btn btn-primary btn-primary" id="botonTurnoNuevo" name="botonTurnoNuevo">Solicitar Turno</button>
+                                  <button class="btn pildora-amarilla " id="botonTurnoNuevo" name="botonTurnoNuevo">Solicitar Turno</button>
                                 </div>
                             </div>
                           </form>
                           
-                          <div class="card col-8 mt-5 offset-2">
+                          <div class="card col-md-8 mt-md-5 offset-md-2">
                             <div class="card-footer-ubicaciones text-muted text-center">
                               <ul class="list-group list-group-flush">  
                                 <li class="list-group-item">Una vez que saques tu turno, recibirás por mail un comprobante en PDF que te servirá para circular en la vía pública y presentar en la sucursal.</li>
@@ -409,7 +409,7 @@ function validarDNINuevo(numero){
                               
                               <div class="row">
                                 <div class="form-group col-12 text-center mt-3">
-                                  <button class="btn btn-primary btn-primary" id="botonAnularTurno" name="botonAnularTurno">Anular Turno</button>
+                                  <button class="btn pildora-amarilla " id="botonAnularTurno" name="botonAnularTurno">Anular Turno</button>
                                 </div>
                             </div>
                             </form>
@@ -459,7 +459,7 @@ function validarDNINuevo(numero){
 
                               <div class="row">
                                 <div class="form-group col-12 text-center mt-3">
-                                  <button class="btn btn-primary btn-primary" id="botonReenviarComprobante" name="botonReenviarComprobante">Reenviar Comprobante</button>
+                                  <button class="btn pildora-amarilla" id="botonReenviarComprobante" name="botonReenviarComprobante">Reenviar Comprobante</button>
                                 </div>
                               </div>
 

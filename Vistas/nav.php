@@ -37,10 +37,10 @@
                             <button class="btn bg-transparent px-0" type="button" id="desplegable" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cliente</button>
                                                        
                             <ul class="dropdown-menu bg-desplegable" role="menu" aria-labelledby="desplegable">
-								<div class="col-12 d-flex flex-row">
-									<div class="col-6">
+								<div class="col-md-12 d-md-flex flex-row">
+									<div class="col-md-6">
 										<li role="presentation" class="dropdown-header">Turnos</li>
-										<li><a class="dropdown-item" tabindex="-1" href="index.php#turno_index">Solicita un turno</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="turnos.php">Solicita un turno</a></li>
 										<li role="presentation" class="dropdown-header">Tarjeta</li>
 										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php" >Tarjeta de Crédito</a></li>
 										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#requisitos_tarjeta" >Requisitos</a></li>
@@ -51,7 +51,7 @@
 										<li role="presentation" class="divider"></li>
 									</div> 
 
-									<div class="col-6">
+									<div class="col-md-6">
 										<li role="presentation" class="dropdown-header">Préstamos Personales</li>
 										<li><a class="dropdown-item" tabindex="-1" href="prestamos_personales.php">Préstamos</a></li>
 										<li><a class="dropdown-item" tabindex="-1" href="prestamos_form.php">Pedí tu Péstamo</a></li>
