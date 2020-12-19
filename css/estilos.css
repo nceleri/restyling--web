@@ -134,15 +134,18 @@ body{
 }
 
 .alto-empresa{
-	height:50vh;
+	height:100vh;
+	font-size: 1.9rem;
 }
 
 .alto-media-pagina{
 	height: 40vh;
 }
 
+/* llega al final */
 .img-empresa{
-	display: block;
+	width: 240vh !important;
+	height: 100vh;
 }
 
 .fondo-imagen{
@@ -178,7 +181,7 @@ body{
 }
 
 .texto-empresa{
-	font-size: 1.2rem;
+	font-size: 1.7rem;
 }
 
 .counter{	
@@ -210,7 +213,7 @@ body{
 	color: #1B52A2;
 }
 /* CAROUSEL */
-.carousel-item img{
+.carousel-item img {
 	width: 240vh !important;
 	height: 100vh;
 }
@@ -595,10 +598,6 @@ background: url(../img/ingreso_cliente.jpg) no-repeat center;
 		height: auto;
 	}
 
-	.img-empresa{
-	display: none;
-	}
-
 	.m-superior-empresa{
 		padding-top: 8rem;
 	}
@@ -645,10 +644,6 @@ background: url(../img/ingreso_cliente.jpg) no-repeat center;
 	.m-superior-medio{
 		padding-top: 2rem;
 	 }
-
-	.img-empresa{
-		display: block;
-	}
 
 	.locales{
 		display: none;
@@ -735,4 +730,10 @@ background: url(../img/ingreso_cliente.jpg) no-repeat center;
     	margin-left: 10rem;
     	font-size: 0.8rem;	
 	}
+
+	
+.alto-empresa{
+	height:100vh;
+}
+
 }
