@@ -1,7 +1,7 @@
 <?php
 include("nav.php");
 ?>
-<!-- CAROUSEL CON NAVEGACION -->
+<!-- CAROUSEL CON NAVEGACION-->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 	<div class="carousel-inner alto p-0 m-0">
 
@@ -15,19 +15,8 @@ include("nav.php");
 				<p class="col-md-6 text-carousel-caption p-0">Beneficios todo el año</p>
 				<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta_form.php" role="button">SOLICITALA AQUÍ</a>
 			</div>
-		</div>
-
-		<!-- <div class="carousel-item   ">
-					<img src="../img/index/7.png" class="img-fluid d-sm-none"  alt="...">
-					<img src="../img/index/2.png" class="img-fluid d-none d-lg-block"  alt="...">
-
-					<div class="carousel-caption col-md-6">
-						<h2 class="font-weight-bold titulo-slider">Solicitá tu tarjeta CREDIFIAR</h2>
-						<p class="col-md-6 text-carousel-caption p-0" >Mínimos requisitos</p>
-						<p class="col-md-6 text-carousel-caption p-0" >Beneficios todo el año</p>
-						<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta.php#solicita_tarjeta" role="button">SOLICITALA AQUÍ</a>
-					</div>
-				</div> -->
+		</div> 	
+	
 
 		<div class="carousel-item   ">
 			<img src="../img/index/8.png" class="img-fluid d-sm-none" alt="beneficios-tarjeta-credifiar">
@@ -42,7 +31,7 @@ include("nav.php");
 			</div>
 		</div>
 
-		<!-- sin texto -->
+		<!-- sin texto-->
 		<div class="carousel-item   ">
 			<img src="../img/index/9.png" class="img-fluid d-sm-none" alt="prestamos-en-efectivo">
 			<img src="../img/index/4.png" class="img-fluid d-none d-lg-block" alt="prestamos-en-efectivo">
@@ -62,7 +51,7 @@ include("nav.php");
 				<a class="btn pildora-amarilla my-md-2 p-md-2" href="tarjeta_form.php" role="button">SOLICITALA AQUÍ</a>
 			</div>
 		</div>
-	</div>
+	</div> 
 
 	<!-- flechas -->
 	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -92,7 +81,7 @@ include("nav.php");
 
 <!-- LUGARES DE PAGO -->
 <div class="container-fluid  p-0 m-0 alto d-flex mb-5">
-	<div class="row m-0 p-0 fondo-ventajas  align-content-center justify-content-center">
+	<div  id="lugaresPago" class="row m-0 p-0 fondo-ventajas  align-content-center justify-content-center">
 		<div class="col-md-6">
 			<div class="jumbotron bg-transparente">
 				<h3 class="tituloVentajas">Conocé nuestros puntos de pago</h3>
@@ -315,7 +304,7 @@ include("nav.php");
 <div class="container-fluid alto locales d-none d-lg-block">
 	<div class="row mt-3 ml-5">
 		<div class="col-12 text-center">
-			<h2 class="tituloComercios">NUESTROS LOCALES</h2>
+			<h2 class="tituloComercios" id="Locales">NUESTROS LOCALES</h2>
 		</div>
 		<div class="col-4 pl-5">
 			<div class="list-group " id="list-tab" role="tablist">

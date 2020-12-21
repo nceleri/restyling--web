@@ -28,8 +28,20 @@
                 <div class="collapse navbar-collapse  " id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto  w-100 justify-content-between">
 
-						<li class="nav-item nav-text">
+						<!-- <li class="nav-item nav-text">
 							<a class="nav-link" id="desplegable" href="index.php">Inicio <span class="sr-only">(current)</span></a>
+						</li> -->
+
+						<!-- nosotros -->
+						<li class="nav-item dropdown open bg-transparent">
+						<button class="btn bg-transparent px-0" type="button" id="desplegable" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nosotros</button>
+
+							<div class="dropdown-menu bg-desplegable">
+								<a class="dropdown-item" href="empresa.php">La Empresa</a>
+								<a class="dropdown-item" href="sucursal.php">Sucursales</a>
+                                <a class="dropdown-item" href="index.php#lugaresPago">Centros de Cobro</a>
+                                <a class="dropdown-item" href="enviar_cv.php">Trabaja con nosotros</a>
+							</div>
 						</li>
 						
 						<!-- cliente -->
@@ -43,6 +55,9 @@
 										<li><a class="dropdown-item" tabindex="-1" href="turnos.php">Solicita un turno</a></li>
 										<li role="presentation" class="dropdown-header">Tarjeta</li>
 										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php" >Tarjeta de Crédito</a></li>
+
+										<li><a class="dropdown-item" tabindex="-1" href="https://www.infotarjetas.com.ar/login.aspx?tid=28" >Ingresa a tu Cuenta</a></li>
+										
 										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#requisitos_tarjeta" >Requisitos</a></li>
 										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#solicita_tarjeta" >Pedi la Tuya</a></li>
 										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#inicio_sesion_tarjeta" >Seguimiento de Cuenta</a></li>
@@ -87,13 +102,13 @@
 							<a class="nav-link" id="desplegable" href="centro_ayuda.php">Centro de Ayuda</a>
 						</li>
 
-						<!-- inicio de sesio -->
+						<!-- inicio de sesio
 						<li class="nav-item">
 							<a type="button" class="btn btn-outline-light btn-outline-light-top border border-white font-weight-bold" id="btn-ingreso"
 								 href="https://www.infotarjetas.com.ar/login.aspx?tid=28">
 								 Iniciar Sesión
 							</a>
-						</li>
+						</li> -->
 					</ul>
 
 

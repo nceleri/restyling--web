@@ -25,11 +25,12 @@ body{
 .navbarSup{
 	background: #1B52A2;
 	transition: none;
+	color: #e7dfd5;
 }
-/* .navbarSup{
-	background: rgba(183,183,183,.6);
-	transition: all ease-in-out 300ms;
-} */
+ .navbarSup{
+	background: rgba(27,82,162,.7);
+	transition: all ease-in-out 300ms;	
+} 
 
 .navbar-brand{
 	width: 12rem;
@@ -143,8 +144,12 @@ body{
 }
 
 /* llega al final */
-.img-empresa{
+.img-completa{
 	width: 240vh !important;
+	height: 100vh;
+}
+
+.completa{
 	height: 100vh;
 }
 
@@ -472,7 +477,7 @@ body{
 /* <---------------------------------- ESTILOS tarjeta.php -------------------------------------->*/
 .fondo-imagen-tarjeta{
   
-	background: url(../img/gestiontarjeta.jpg) no-repeat center;
+	background: url(../img/1x/IngresaCuenta.jpg) no-repeat center;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -482,7 +487,12 @@ body{
 	  text-align: center;
   }
 
-  .fondo-tarjeta-requisito{
+#requisitos_tarjeta{
+	height: 70vh;
+	margin-top: 9rem;
+}
+
+.fondo-tarjeta-requisito{
 	background: url(../img/1x/RequisitosTarjeta.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -491,7 +501,7 @@ body{
 	height: 100%;
 	width: 100% ;
 	text-align: center;
-  }
+}
 
 .fondo-imagen-tarjeta-ingreso{
 
@@ -507,7 +517,7 @@ background: url(../img/ingreso_cliente.jpg) no-repeat center;
 
   .fondo-imagen-tarjeta-comercios{
   
-	background: url(../img/comercios.jpg) no-repeat center;
+	background: url(../img/1x/BuscarComercios.jpg) no-repeat center;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -725,15 +735,41 @@ background: url(../img/ingreso_cliente.jpg) no-repeat center;
 		height: 100%;
 	}
 
-
 	.text-green {
     	margin-left: 10rem;
     	font-size: 0.8rem;	
 	}
+		
+	.alto-empresa{
+		height:100vh;
+	}
 
-	
-.alto-empresa{
-	height:100vh;
-}
+	.fondo-tarjeta-requisito{
+		background: url(../img/1x/RequisitosTarjetaMobile.jpg) no-repeat center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.fondo-imagen-tarjeta-ingreso{
+	}
+	.fondo-imagen-tarjeta-comercios{
+  
+		background: url(../img/1x/BuscarComerciosMobile.jpg) no-repeat center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.fondo-tarjeta-requisito{
+		background: url(../img/1x/RequisitosTarjetaMobile.jpg) no-repeat center;
+		
+	}
+
+	.fondo-imagen-tarjeta{
+  
+	display: none;
+	  }
 
 }

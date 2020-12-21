@@ -2,10 +2,10 @@
 	include ("nav.php");
 ?>
 
-		<div class="container-fluid  m-superior-empresa d-flex" name="empresa">	
+		<div class="container-fluid d-flex" name="">	
 			<div class="row align-content-center">				
 				<div class="col-12 p-0">
-					<img class=" img-fluid d-none d-md-block img-empresa" src="../img/1x/Laempresa.jpg" alt="">
+					<img class=" img-fluid d-none d-md-block img-completa" src="../img/1x/Laempresa.jpg" alt="">
 					<img class=" img-fluid d-block d-md-none" src="../img/1x/LaEmpresaMobile.jpg" alt="">					
 				</div>
 				<div class="d-md-flex alto-empresa ">

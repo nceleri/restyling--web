@@ -80,12 +80,21 @@
 
 </script>
 
-    <div class="container m-superior-medio">
+    <div class="container-fluid  d-flex" name="">	
+		<div class="row align-content-center">				 
+			<div class="col-12 p-0">
+				<img class=" img-fluid d-none d-md-block img-completa" src="../img/1x/trabajaConNosotros.jpg" alt="">
+				<img class=" img-fluid d-block d-md-none" src="../img/1x/trabajaConNosotrosMobile.jpg" alt="">
+			</div>
+		 </div>
+	</div> 
+
+    <div class="container my-3">
         <div class="row my-4">
             <div class="col-12">
                 <h3 class="text  text-center" >Adjuntanos tu CV</h3>
             </div>
-            <div class="col-md-5  offset-md-1">
+            <div class="col-md-8  offset-md-2 card-borde-turno">
                 <form name="formularioEnviarCV" id="formularioEnviarCV" action="" method="post" enctype="multipart/form-data">
                     <div class="row">
                         <div class="form-group col-12">
@@ -121,15 +130,13 @@
                     
                     <div class="row">
                         <div class="form-group col-12 text-center mt-3">
-                            <button class="btn btn-primary" type="submit" id="botonEnviarCV" name="botonEnviarCV" accesskey="6">Enviar CV</button>
+                            <button class="btn pildora-amarilla" type="submit" id="botonEnviarCV" name="botonEnviarCV" accesskey="6">Enviar CV</button>
                         </div>
                     </div>
                     
                 </form>
             </div>
-            <div class="col-md-5  offset-md-1">
-                <img src="../img/trabajaNos1.jpg" alt="" class="img-fluid">
-            </div>
+           
         </div>
     </div>
     <?php

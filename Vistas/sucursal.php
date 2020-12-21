@@ -1,79 +1,89 @@
 <?php
     include ("nav.php");
   ?>
+
+	<div class="container-fluid  d-flex" name="">	
+		<div class="row align-content-center">				
+			<div class="col-12 p-0">
+				<img class=" img-fluid d-none d-md-block img-completa" src="../img/1x/Sucursales.jpg" alt="">
+				<img class=" img-fluid d-block d-md-none" src="../img/1x/SucursalesMobile.jpg" alt="">
+			</div>
+		</div>
+	</div>
+
     <!-- UBICACIONES PARA CELULAR -->	
-		<div class="container d-flex d-lg-none d-block">	
-			<div class="row  align-content-center">
-				<div class="col-12 mt-5">
-					<h2 class="tituloComercios mt-5">Nuestros Locales</h2>
-					<div class="card-deck">						
-						<div class="col-12 mb-sm-3">
-							<div class="card pb-4" >						
-								<div class="card-body">
-									<h5 class="card-title-ubicaciones"> Casa Central</h5>
-									<p class="card-text-ubicaciones">PRIMERA JUNTA 2675 - 3000 Santa Fe</p>
-									<p class="card-text-ubicaciones">Tel: 0342 - 4579300</p>		
-								</div>
-								<div class="card-footer-ubicaciones text-muted text-center" >
-									<a href="#" class="btn btn-primary">Ubicación</a>
-								</div>
+	<div class="container d-flex d-lg-none d-block">	
+		<div class="row  align-content-center">
+			<div class="col-12 mt-5">
+				<h2 class="tituloComercios mt-5">Nuestros Locales</h2>
+				<div class="card-deck">						
+					<div class="col-12 mb-sm-3">
+						<div class="card pb-4" >						
+							<div class="card-body">
+								<h5 class="card-title-ubicaciones"> Casa Central</h5>
+								<p class="card-text-ubicaciones">PRIMERA JUNTA 2675 - 3000 Santa Fe</p>
+								<p class="card-text-ubicaciones">Tel: 0342 - 4579300</p>		
 							</div>
-						</div>						
-						<div class="col-12 mb-sm-3">
-							<div class="card pb-4" >						
+							<div class="card-footer-ubicaciones text-muted text-center" >
+								<a href="#" class="btn btn-primary">Ubicación</a>
+							</div>
+						</div>
+					</div>						
+					<div class="col-12 mb-sm-3">
+						<div class="card pb-4" >						
+							<div class="card-body" >
+								<h5 class="card-title-ubicaciones">Sucursal Aristóbulo</h5>
+								<p class="card-text-ubicaciones">Av. Aristobulo del Valle 6857 - 3000 Santa Fe</p>
+								<p class="card-text-ubicaciones">Tel: 0342 - 4579330</p>
+							</div>
+							<div class="card-footer-ubicaciones text-muted text-center" >
+								<a href="#" class="btn btn-primary">Ubicación</a>
+							</div>
+						</div>
+					</div>						
+					<div class="col-12 mb-sm-3">
+						<div class="card pb-4" >						
 								<div class="card-body" >
-									<h5 class="card-title-ubicaciones">Sucursal Aristóbulo</h5>
-									<p class="card-text-ubicaciones">Av. Aristobulo del Valle 6857 - 3000 Santa Fe</p>
-									<p class="card-text-ubicaciones">Tel: 0342 - 4579330</p>
-								</div>
-								<div class="card-footer-ubicaciones text-muted text-center" >
-									<a href="#" class="btn btn-primary">Ubicación</a>
-								</div>
+								<h5 class="card-title-ubicaciones">Sucursal Esperanza</h5>
+								<p class="card-text-ubicaciones">25 de Mayo 1414 - 3080 Esperanza</p>
+								<p class="card-text-ubicaciones">Tel: 03496-423996</p>
 							</div>
-						</div>						
-						<div class="col-12 mb-sm-3">
-							<div class="card pb-4" >						
-									<div class="card-body" >
-									<h5 class="card-title-ubicaciones">Sucursal Esperanza</h5>
-									<p class="card-text-ubicaciones">25 de Mayo 1414 - 3080 Esperanza</p>
-									<p class="card-text-ubicaciones">Tel: 03496-423996</p>
-								</div>
-								<div class="card-footer-ubicaciones text-muted text-center" >
-									<a href="#" class="btn btn-primary">Ubicación</a>
-								</div>
+							<div class="card-footer-ubicaciones text-muted text-center" >
+								<a href="#" class="btn btn-primary">Ubicación</a>
 							</div>
-						</div>						
-						<div class="col-12 mb-sm-3">
-							<div class="card pb-4" >						
-									<div class="card-body" >
-									<h5 class="card-title-ubicaciones">Sucursal Parana</h5>
-									<p class="card-text-ubicaciones">Peru 67 - 3100 Parana</p>
-									<p class="card-text-ubicaciones">Tel: 0342 - 155091084</p>
-								</div>
-								<div class="card-footer-ubicaciones text-muted text-center" >
-									<a href="#" class="btn btn-primary">Ubicación</a>
-								</div>
-							</div>
-						</div>						
-						<div class="col-12 mb-sm-3">
-							<div class="card pb-4" >						
+						</div>
+					</div>						
+					<div class="col-12 mb-sm-3">
+						<div class="card pb-4" >						
 								<div class="card-body" >
-									<h5 class="card-title-ubicaciones">Sucursal Ceres</h5>
-									<p class="card-text-ubicaciones">Av. de Mayo 286 Loc.3 - 2340 Ceres</p>
-									<p class="card-text-ubicaciones">Tel: 03491 420135</p>
-								</div>
-								<div class="card-footer-ubicaciones text-muted  text-center" >
-									<a href="#" class="btn btn-primary">Ubicación</a>
-								</div>
+								<h5 class="card-title-ubicaciones">Sucursal Parana</h5>
+								<p class="card-text-ubicaciones">Peru 67 - 3100 Parana</p>
+								<p class="card-text-ubicaciones">Tel: 0342 - 155091084</p>
+							</div>
+							<div class="card-footer-ubicaciones text-muted text-center" >
+								<a href="#" class="btn btn-primary">Ubicación</a>
+							</div>
+						</div>
+					</div>						
+					<div class="col-12 mb-sm-3">
+						<div class="card pb-4" >						
+							<div class="card-body" >
+								<h5 class="card-title-ubicaciones">Sucursal Ceres</h5>
+								<p class="card-text-ubicaciones">Av. de Mayo 286 Loc.3 - 2340 Ceres</p>
+								<p class="card-text-ubicaciones">Tel: 03491 420135</p>
+							</div>
+							<div class="card-footer-ubicaciones text-muted  text-center" >
+								<a href="#" class="btn btn-primary">Ubicación</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
 	<!-- UBICACIONES PARA RESPONSIVE -->
-<div class="container-fluid alto my-5 locales d-none d-lg-block">
+	<div class="container-fluid alto my-5 locales d-none d-lg-block">
 			<div class="row mt-5">
 				<div class="col-12 text-center">
 					<h2 class="tituloComercios mt-5">Nuestros Locales</h2>
