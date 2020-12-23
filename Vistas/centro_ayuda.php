@@ -105,7 +105,7 @@
                             <p class="text-left">Promociones, requisitos, beneficios y costos.</p>
                         </div>
                         <div class="card-footer-centro-ayuda text-muted text-center" >
-                            <a href="tarjeta.php#comercios" class="btn btn-outline-primary boton-ayuda">Buscar</a>
+                            <a href="tarjeta.php#comercios_tarjeta" class="btn btn-outline-primary boton-ayuda">Buscar</a>
                         </div>
                     </div>
                     <div class="card pb-4" >

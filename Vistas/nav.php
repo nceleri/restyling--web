@@ -28,9 +28,9 @@
                 <div class="collapse navbar-collapse  " id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto  w-100 justify-content-between">
 
-						<!-- <li class="nav-item nav-text">
+						<li class="nav-item nav-text">
 							<a class="nav-link" id="desplegable" href="index.php">Inicio <span class="sr-only">(current)</span></a>
-						</li> -->
+						</li>
 
 						<!-- nosotros -->
 						<li class="nav-item dropdown open bg-transparent">
@@ -58,11 +58,11 @@
 
 										<li><a class="dropdown-item" tabindex="-1" href="https://www.infotarjetas.com.ar/login.aspx?tid=28" >Ingresa a tu Cuenta</a></li>
 										
+										<li><a class="dropdown-item" tabindex="-1" href="tarjeta_form.php" >Solicitá tu Tarjeta</a></li>
 										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#requisitos_tarjeta" >Requisitos</a></li>
-										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#solicita_tarjeta" >Pedi la Tuya</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#comercios_tarjeta" >Comercios Adheridos</a></li>
 										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#inicio_sesion_tarjeta" >Seguimiento de Cuenta</a></li>
 										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#resumen_tarjeta" >Resumen de Tarjeta</a></li>
-										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#comercios_tarjeta" >Comercios Adheridos</a></li>
 										<li role="presentation" class="divider"></li>
 									</div> 
 
@@ -102,13 +102,13 @@
 							<a class="nav-link" id="desplegable" href="centro_ayuda.php">Centro de Ayuda</a>
 						</li>
 
-						<!-- inicio de sesio
+						<!-- inicio de sesio -->
 						<li class="nav-item">
 							<a type="button" class="btn btn-outline-light btn-outline-light-top border border-white font-weight-bold" id="btn-ingreso"
 								 href="https://www.infotarjetas.com.ar/login.aspx?tid=28">
 								 Iniciar Sesión
 							</a>
-						</li> -->
+						</li>
 					</ul>
 
 

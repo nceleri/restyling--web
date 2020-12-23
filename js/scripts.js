@@ -6,15 +6,9 @@
       e.stopPropagation();
       e.preventDefault();
     });
-    
-	$('.galeriaPromociones .contenedor-imagen').on('click',function(){
-		$('#modal').modal;
-    // var ruta_imagen = ($(this).find('img').attr('src'));
-    var ruta_imagen = '../img/extras/farmacias.jpg';
-    console.log(ruta_imagen);
-		$('#imagen-modal').attr('src',ruta_imagen);
-    });
- 
+
+
+
     var windowHeight = $(window).height(); 
     var scrollVertical = 0;
     var i = 0;

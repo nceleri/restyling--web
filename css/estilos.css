@@ -424,9 +424,9 @@ body{
 }
 
 /* <---------------------------------- ESTILOS turnos.html -------------------------------------->*/
-.card-borde-turno{
+/* .card-borde-turno{
 	border: 3px solid;
-}
+} */
 
 /* <---------------------------------- ESTILOS comercio.php -------------------------------------->*/
 .card-title-comercio{
@@ -530,6 +530,29 @@ background: url(../img/ingreso_cliente.jpg) no-repeat center;
   .bg-transparente-tarjeta{
 	background: rgba(255,255,255,.7);
 }
+
+.fondo-imagen-tarjeta-beneficios {
+	background: url(../img/index/3.png) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100% ;
+	text-align: center;
+} 
+/* posicion del caption */
+.carousel-caption-tarjeta {
+	width: auto;
+	z-index: 10; 
+	color: #1B52A2;
+	top: 0;
+	left: 0;
+	/*	text-align: center;
+	 bottom: auto;  */
+	text-align: start;
+}
+
 
   /* <---------------------------------- ESTILOS prestamos_personales.php -------------------------------------->*/
 .fondo-imagen-prestamos {
@@ -724,10 +747,10 @@ background: url(../img/ingreso_cliente.jpg) no-repeat center;
 		border: 3px solid;
 	}
 
-	.card-borde-turno{
+	/* .card-borde-turno{
 		border: 1px ;
 		border: groove;
-	}
+	} */
 
 	/* CAROUSEL */
 	.carousel-item img{
@@ -751,21 +774,17 @@ background: url(../img/ingreso_cliente.jpg) no-repeat center;
 		-o-background-size: cover;
 		background-size: cover;
 	}
+	/* .fondo-tarjeta-requisito{
+		background: url(../img/1x/RequisitosTarjetaMobile.jpg) no-repeat center;
+		
+	} */
 	.fondo-imagen-tarjeta-ingreso{
 	}
 	.fondo-imagen-tarjeta-comercios{
   
-		background: url(../img/1x/BuscarComerciosMobile.jpg) no-repeat center;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+		background: url(../img/1x/BuscarComerciosMobilecopia.jpg);
 	}
 
-	.fondo-tarjeta-requisito{
-		background: url(../img/1x/RequisitosTarjetaMobile.jpg) no-repeat center;
-		
-	}
 
 	.fondo-imagen-tarjeta{
   
