@@ -37,9 +37,9 @@
 						<button class="btn bg-transparent px-0" type="button" id="desplegable" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nosotros</button>
 
 							<div class="dropdown-menu bg-desplegable">
-								<a class="dropdown-item" href="empresa.php">La Empresa</a>
-								<a class="dropdown-item" href="sucursal.php">Sucursales</a>
-                                <a class="dropdown-item" href="index.php#lugaresPago">Centros de Cobro</a>
+								<a class="dropdown-item" href="empresa.php#laempresa">La Empresa</a>
+								<a class="dropdown-item" href="sucursal.php#lugaresycentrosdecobro">Sucursales</a>
+                                <a class="dropdown-item" href="sucursal.php#lugaresPago">Centros de Cobro</a>
                                 <a class="dropdown-item" href="enviar_cv.php">Trabaja con nosotros</a>
 							</div>
 						</li>
@@ -55,14 +55,13 @@
 										<li><a class="dropdown-item" tabindex="-1" href="turnos.php">Solicita un turno</a></li>
 										<li role="presentation" class="dropdown-header">Tarjeta</li>
 										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php" >Tarjeta de Crédito</a></li>
-
-										<li><a class="dropdown-item" tabindex="-1" href="https://www.infotarjetas.com.ar/login.aspx?tid=28" >Ingresa a tu Cuenta</a></li>
-										
+										<li><a class="dropdown-item" tabindex="-1" href="https://www.infotarjetas.com.ar/login.aspx?tid=28" >Ingresa a tu Cuenta</a></li>										
 										<li><a class="dropdown-item" tabindex="-1" href="tarjeta_form.php" >Solicitá tu Tarjeta</a></li>
 										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#requisitos_tarjeta" >Requisitos</a></li>
 										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#comercios_tarjeta" >Comercios Adheridos</a></li>
-										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#inicio_sesion_tarjeta" >Seguimiento de Cuenta</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#lugaresPago" >Lugares de Pago</a></li>
 										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#resumen_tarjeta" >Resumen de Tarjeta</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="tarjeta.php#beneficios_tarjeta" >Beneficios</a></li>
 										<li role="presentation" class="divider"></li>
 									</div> 
 
@@ -75,12 +74,12 @@
 										<li role="presentation" class="dropdown-header">Créditos de Consumo</li>
 										<li><a class="dropdown-item"tabindex="-1"  href="credito_consumo.php">Créditos</a></li>
 										<li><a class="dropdown-item" tabindex="-1" href="credito_consumo.php#requisitos_credito">Requisitos</a></li>
-										<li><a class="dropdown-item" tabindex="-1" href="credito_consumo.php#comercios_credito">Pedí tu Péstamo</a></li>
-										<li><a class="dropdown-item" tabindex="-1" href="credito_consumo.php#lugares_pago_credito">Requisitos</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="credito_consumo.php#comercios_credito">Comericios Adheridos</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="credito_consumo.php#lugaresPago" >Lugares de Pago</a></li>
+										<li><a class="dropdown-item" tabindex="-1" href="credito_consumo.php#beneficios_consumo">Beneficios</a></li>
 									</div>
 								</div>
                             </ul>
-
                         </li>                     
 						
 						<!-- comercio -->
@@ -89,17 +88,20 @@
 
 							<div class="dropdown-menu bg-desplegable">
 								<a class="dropdown-item" href="comercio.php">Comercio</a>
-								<a class="dropdown-item" href="comercio.php#sesion_liquidaciones">Liquidaciones</a>
-                                <a class="dropdown-item" href="comercio.php#novedades_comerciales">Novedades</a>
+								<a class="dropdown-item" tabindex="-1" href="https://www.infotarjetas.com.ar/login.aspx?tid=28" >Ingresa a tu Cuenta</a>	
+                                <a class="dropdown-item" href="comercio.php#trabaja_comercio">Adherite a Credifiar</a>
                                 <a class="dropdown-item" href="comercio.php#comercio_promociones">Sumate</a>
-								<!-- <a class="dropdown-item" href="comercio_form.php">Sumate</a> -->
-                                <a class="dropdown-item" href="comercio.php#comercio_promociones">Promociones</a>
 							</div>
 						</li>
 
                         <!-- centro de ayuda -->
-						<li class="nav-item">
-							<a class="nav-link" id="desplegable" href="centro_ayuda.php">Centro de Ayuda</a>
+						<li class="nav-item dropdown open bg-transparent">
+							<button class="btn bg-transparent px-0" type="button" id="desplegable" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Centro de Ayuda</button>
+
+							<div class="dropdown-menu bg-desplegable">
+								<a class="dropdown-item" href="centro_ayuda.php">Preguntas Frecuentes</a>
+								<a class="dropdown-item" href="contacto.php">Contactanos</a>
+							</div>
 						</li>
 
 						<!-- inicio de sesio -->

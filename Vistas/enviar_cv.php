@@ -80,14 +80,16 @@
 
 </script>
 
-    <div class="container-fluid  d-flex" name="">	
-		<div class="row align-content-center">				 
-			<div class="col-12 p-0">
-				<img class=" img-fluid d-none d-md-block img-completa" src="../img/1x/trabajaConNosotros.jpg" alt="">
-				<img class=" img-fluid d-block d-md-none" src="../img/1x/trabajaConNosotrosMobile.jpg" alt="">
-			</div>
-		 </div>
-	</div> 
+    <div class="container-fluid  p-0 m-0 alto d-flex ">
+        <div class="row m-0 p-0 fondo-imagen-enviaCV  align-content-center">
+            <div class="col-md-6">
+                <div class="texto-banners">
+					<p class="">TRABAJÁ CON NOSOTROS</p>
+                    <hr class="my-2">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container my-3">
         <div class="row my-4">

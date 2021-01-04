@@ -139,7 +139,7 @@
                             </div>
                             <div class="row">
                                 <div class="form-group col-12 text-center mt-3">
-                                    <button class="btn btn-primary btn-primary" id="botonSolicitarComercio" name="botonSolicitarComercio">Enviar Solicitud</button>
+                                    <button class="btn pildora-amarilla" id="botonSolicitarComercio" name="botonSolicitarComercio">Enviar Solicitud</button>
                                 </div>
                             </div>
                         </form>

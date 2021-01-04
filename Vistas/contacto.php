@@ -122,86 +122,96 @@
     return false;}
   }
 </script>
-    <div class="container m-superior-medio">
-        
-            <div class="container">
-                <div class="row mt-3">
-                    <div class="col-12 text-center">
-                    <h3 class="text" style="font-size: 2rem;">Dejanos tu mensaje y nos comunicaremos con vos a la brevedad, gracias!</h3>
-                    </div> 
-                    <div class="col-12 col-md-8 offset-md-2 py-5 rounded">
-                        <form id="formularioContacto" method="post">
-                            <div class="row">
-                                <div class="form-group col-lg-6">
-                                    <label for="">Primer Nombre</label>
-                                    <input type="text" class="form-control shadow-sm" name=nombreContacto id=nombreContacto>
-                                </div>
-                                <div class="form-group col-lg-6">
-                                    <label for="">Apellido</label>
-                                    <input type="text" class="form-control shadow-sm" name=apellidoContacto id=apellidoContacto>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-lg-6">
-                                    <label for="">Correo</label>
-                                    <input type="text" class="form-control shadow-sm" name=correo1Contacto id=correo1Contacto onChange="validarCorreo1Contacto(this.value)">
-                                </div>
-                                <div class="form-group col-lg-6">
-                                    <label for="">Confirmar Correo</label>
-                                    <input type="text" class="form-control shadow-sm" name=correo2Contacto id=correo2Contacto onChange="validarCorreo2Contacto(this.value)">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="exampleFormControlSelect1">DNI</label>
-                                    <input type="text" class="form-control shadow-sm" name=dniContacto id=dniContacto onChange="validarDNIContacto(this.value)">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-lg-6">
-                                    <label for="exampleFormControlSelect1">Sexo</label>
-                                    <select class="form-control" name=sexoContacto id=sexoContacto>
-                                        <option value="M">Masculino</option>
-                                        <option value="F">Femenino</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-lg-6">
-                                    <label for="">Telefono</label>
-                                    <input type="text" class="form-control shadow-sm" name=telefonoContacto id=telefonoContacto onChange="validarTelefonoContacto(this.value)">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-lg-6">
-                                    <label for="exampleFormControlSelect1">Provincia</label>
-                                    <select class="form-control" name=provinciaContacto id=provinciaContacto>
-                                        <option>Provincia 1</option>
-                                        <option>Provincia 2</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-lg-6">
-                                    <label for="exampleFormControlSelect1">Ciudad</label>
-                                    <select class="form-control" name=ciudadContacto id=ciudadContacto>
-                                        <option>Ciudad 1</option>
-                                        <option>Ciduad 2</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="row">                       
-                                <div class="form-group col-12">
-                                    <label for="exampleFormControlTextarea1">Consultas/Reclamos:</label>
-                                    <textarea class="form-control" name=comentarioContacto id=comentarioContacto rows="3"></textarea>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-12 text-center mt-3">
-                                    <button class="btn btn-primary btn-primary" id="botonContacto" name="botonContacto">Enviar Mensaje</button>
-                                </div>
-                            </div>
-                        </form>
+    <div class="container-fluid p-0 m-0">
+        <div id="lugaresycentrosdecobro" class="container-fluid  p-0 m-0 alto d-flex ">
+            <div class="row m-0 p-0 fondo-imagen-contacto  align-content-center ">            
+                <div class="col-md-6">
+                    <div class="texto-banners">
+                        <p class="">CONTACTANOS</p>
+                        <hr class="my-2">
                     </div>
                 </div>
             </div>
-                                
+        </div>
+        
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                <h3 class="text" style="font-size: 2rem;">Dejanos tu mensaje y nos comunicaremos con vos a la brevedad, gracias!</h3>
+                </div> 
+                <div class="col-12 col-md-8 offset-md-2 py-5 rounded">
+                    <form id="formularioContacto" method="post">
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <label for="">Primer Nombre</label>
+                                <input type="text" class="form-control shadow-sm" name=nombreContacto id=nombreContacto>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="">Apellido</label>
+                                <input type="text" class="form-control shadow-sm" name=apellidoContacto id=apellidoContacto>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <label for="">Correo</label>
+                                <input type="text" class="form-control shadow-sm" name=correo1Contacto id=correo1Contacto onChange="validarCorreo1Contacto(this.value)">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="">Confirmar Correo</label>
+                                <input type="text" class="form-control shadow-sm" name=correo2Contacto id=correo2Contacto onChange="validarCorreo2Contacto(this.value)">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="exampleFormControlSelect1">DNI</label>
+                                <input type="text" class="form-control shadow-sm" name=dniContacto id=dniContacto onChange="validarDNIContacto(this.value)">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <label for="exampleFormControlSelect1">Sexo</label>
+                                <select class="form-control" name=sexoContacto id=sexoContacto>
+                                    <option value="M">Masculino</option>
+                                    <option value="F">Femenino</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="">Telefono</label>
+                                <input type="text" class="form-control shadow-sm" name=telefonoContacto id=telefonoContacto onChange="validarTelefonoContacto(this.value)">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <label for="exampleFormControlSelect1">Provincia</label>
+                                <select class="form-control" name=provinciaContacto id=provinciaContacto>
+                                    <option>Provincia 1</option>
+                                    <option>Provincia 2</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="exampleFormControlSelect1">Ciudad</label>
+                                <select class="form-control" name=ciudadContacto id=ciudadContacto>
+                                    <option>Ciudad 1</option>
+                                    <option>Ciduad 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">                       
+                            <div class="form-group col-12">
+                                <label for="exampleFormControlTextarea1">Consultas/Reclamos:</label>
+                                <textarea class="form-control" name=comentarioContacto id=comentarioContacto rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-12 text-center mt-3">
+                                <button class="btn pildora-amarilla" id="botonContacto" name="botonContacto">Enviar Mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+                            
     </div>
     <?php
         include ("footer.php");

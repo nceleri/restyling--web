@@ -423,6 +423,18 @@ body{
 	font-size: 0.5rem;
 }
 
+/* <---------------------------------- ESTILOS empresa.html -------------------------------------->*/
+.fondo-imagen-empresa{  
+	background: url(../img/1x/Laempresa.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100% ;
+	text-align: center;
+  }
+
 /* <---------------------------------- ESTILOS turnos.html -------------------------------------->*/
 /* .card-borde-turno{
 	border: 3px solid;
@@ -447,9 +459,8 @@ body{
 	background: white;
 }
 
-.fondo-imagen-comercio{
-  
-	background: url(../img/ingreso_comercio.jpg) no-repeat center;
+.fondo-adheri-comercio{  
+	background: url(../img/1x/ComerciosAdherirse.jpg) no-repeat center;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -457,6 +468,17 @@ body{
 	  height: 100%;
 	  width: 100% ;
 	  text-align: center;
+  }
+
+  .fondo-planes-comercio{  
+	background: url(../img/1x/PlanesCuotas\ .jpg) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100% ;
+	text-align: center;
   }
 
   .bg-transparente-comercio{
@@ -487,12 +509,12 @@ body{
 	  text-align: center;
   }
 
-#requisitos_tarjeta{
+/* #requisitos_tarjeta{
 	height: 70vh;
 	margin-top: 9rem;
-}
+} */
 
-.fondo-tarjeta-requisito{
+.fondo-requisito{
 	background: url(../img/1x/RequisitosTarjeta.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -531,7 +553,7 @@ background: url(../img/ingreso_cliente.jpg) no-repeat center;
 	background: rgba(255,255,255,.7);
 }
 
-.fondo-imagen-tarjeta-beneficios {
+.fondo-imagen-beneficios {
 	background: url(../img/index/3.png) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -554,10 +576,21 @@ background: url(../img/ingreso_cliente.jpg) no-repeat center;
 }
 
 
+.texto-banners{
+	width: auto;
+	z-index: 10; 
+	color: #1B52A2;
+	top: 20%;
+	left: 30%;
+	font-size: 2rem;
+	text-align: justify;
+	/*	bottom: auto;  */
+}
+
   /* <---------------------------------- ESTILOS prestamos_personales.php -------------------------------------->*/
 .fondo-imagen-prestamos {
   
-	background: url(../img/prestamos-personales.jpg) no-repeat center;
+	background: url(../img/index/4.png) no-repeat center;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -593,7 +626,41 @@ background: url(../img/ingreso_cliente.jpg) no-repeat center;
 
 /* <---------------------------------- ESTILOS contacto.php -------------------------------------->*/
 
+.fondo-imagen-contacto{
+	background: url(../img/1x/Contactos.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+}
+
+/* <---------------------------------- ESTILOS envia cv.php -------------------------------------->*/
+.fondo-imagen-enviaCV{
+	background: url(../img/1x/trabajaConNosotros.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+}
+
 /* <---------------------------------- ESTILOS sucursal.php -------------------------------------->*/
+
+.fondo-imagen-sucursales {
+	background: url(../img/1x/Sucursales.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+}
 
 .locales{
 	display: block;
@@ -767,28 +834,55 @@ background: url(../img/ingreso_cliente.jpg) no-repeat center;
 		height:100vh;
 	}
 
-	.fondo-tarjeta-requisito{
-		background: url(../img/1x/RequisitosTarjetaMobile.jpg) no-repeat center;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+	.fondo-requisito{
+		background: url(../img/1x/RequisitosTarjetaMobile.jpg);
 	}
 	/* .fondo-tarjeta-requisito{
 		background: url(../img/1x/RequisitosTarjetaMobile.jpg) no-repeat center;
-		
+
 	} */
 	.fondo-imagen-tarjeta-ingreso{
 	}
-	.fondo-imagen-tarjeta-comercios{
-  
+	.fondo-imagen-tarjeta-comercios{  
 		background: url(../img/1x/BuscarComerciosMobilecopia.jpg);
 	}
 
+	.fondo-imagen-tarjeta{  
+		display: none;
+	}
 
-	.fondo-imagen-tarjeta{
-  
-	display: none;
-	  }
+	.fondo-imagen-sucursales {
+		background: url(../img/1x/SucursalesMobile.jpg);
+	}
 
+	.fondo-imagen-enviaCV{
+		background: url(../img/1x/trabajaConNosotrosMobile.jpg);
+	}
+
+	.fondo-imagen-empresa{  
+		background: url(../img/1x/LaEmpresaMobile.jpg);	
+	}
+
+	.fondo-imagen-contacto{
+		background: url(../img/1x/ContactoMobile.jpg)
+	}
+
+	.fondo-imagen-beneficios {
+		background: url(../img/index/8.png);
+	}	
+
+	.fondo-imagen-prestamos {
+  		background: url(../img/index/9.png);
+	}
+
+	.fondo-adheri-comercio{  
+		background: url(../img/1x/ComerciosAdherirseMobile.jpg);
+	}
+
+	.fondo-planes-comercio{  
+		background: url(../img/1x/PlanesCuotasMobile.jpg);
+	}
+	.texto-banners{
+		text-align: center;
+	}
 }

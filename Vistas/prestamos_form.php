@@ -164,7 +164,7 @@
                     </div>
                     <div class="row">
                       <div class="form-group col-12 text-center mt-3">
-                          <button class="btn btn-primary btn-primary" id="botonSolicitarPrestamos" name="botonSolicitarPrestamos">Solicitar Prestamo</button>
+                          <button class="btn pildora-amarilla" id="botonSolicitarPrestamos" name="botonSolicitarPrestamos">Solicitar Prestamo</button>
                       </div>
                     </div>
                 </form>

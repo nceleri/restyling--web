@@ -27,7 +27,7 @@ include("nav.php");
 				<p class="col-md-6 text-carousel-caption p-0">DESCUENTOS</p>
 				<p class="col-md-6 text-carousel-caption p-0">CUOTAS SIN INTERÉS</p>
 				<p class="col-md-10 text-carousel-caption p-0">+ DE 2000 COMERCIOS ADHERIDOS</p>
-				<a class="btn pildora-amarilla my-md-2 p-md-2" href="index.php#promociones" role="button">CONÓCELOS</a>
+				<a class="btn pildora-amarilla my-md-2 p-md-2" href="index.php#promociones" role="button">CONOCELOS</a>
 			</div>
 		</div>
 
