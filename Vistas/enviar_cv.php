@@ -100,7 +100,6 @@
                 <form name="formularioEnviarCV" id="formularioEnviarCV" action="" method="post" enctype="multipart/form-data">
                     <div class="row">
                         <div class="form-group col-12">
-                            <!--<label for="to" accesskey="1">Para</label>-->
                             <input name="paraCV" class="form-control shadow-sm" type="hidden" id="paraCV" value="francisco.fanton@credifiar.com.ar" size="35" readonly="readonly">
                         </div>
                     </div>
@@ -126,7 +125,6 @@
                         <div class="form-group col-12">
                             <label for="archivo2" class="texto" accesskey="5">Adjuntar CV:</label>
                             <input  class="form-control" type="file" id="ficheroCV" name="ficheroCV"/>
-                            <!--<button class="btn btn-info" type="button" href="#" onclick="addField()" accesskey="5">Agregar Archivo</button>-->
                         </div>
                     </div>
                     

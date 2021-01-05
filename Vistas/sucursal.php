@@ -162,8 +162,6 @@
 			<div class="col-md-6">
 				<div class="jumbotron bg-transparente">
 					<h3 class="tituloVentajas">Conocé nuestros puntos de pago</h3>
-					<!-- <hr class="my-2">
-							<p class="lead"> -->
 					<button type="button" class="btn pildora-amarilla" data-toggle="modal" data-target="#lugares-modal">VER PUNTOS DE PAGO</button>
 					<!-- Modal -->
 					<div class="modal fade" id="lugares-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

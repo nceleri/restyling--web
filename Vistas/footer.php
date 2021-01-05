@@ -23,7 +23,6 @@
 										<h4 class="card-title-footer">ATENCIÓN AL CLIENTE</h4>
 										<p><a class="btn-footer"  rel="" href="sucursal.php">Sucursales</a></p>
 										<p><a class="btn-footer"  rel="" href="informacionBRCA.php">Atención a usuarios financieros</a></p>
-										<!-- <p><a class="btn-footer"  rel="" href="../archivos/Condiciones_bonificaciones_2018.pdf">Bases y Condiciones</a><p> -->
 										<p><a class="btn-footer"  rel="" href="../archivos/TCyC.pdf">Costos Financieros</a></p>
 									</div>
 								</div>

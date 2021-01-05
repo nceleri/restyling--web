@@ -85,8 +85,6 @@ include("nav.php");
 		<div class="col-md-6">
 			<div class="jumbotron bg-transparente">
 				<h3 class="tituloVentajas">Conocé nuestros puntos de pago</h3>
-				<!-- <hr class="my-2">
-						<p class="lead"> -->
 				<button type="button" class="btn pildora-amarilla" data-toggle="modal" data-target="#lugares-modal">VER PUNTOS DE PAGO</button>
 				<!-- Modal -->
 				<div class="modal fade" id="lugares-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -169,18 +167,8 @@ include("nav.php");
 					</a>
 				</div>
 
-				<!-- modales de las promos o terminos y condiciones derecho?-->
-				<div class="modal fade" id="modal">
-					<div class="modal-dialog d-flex justify-content-center align-items-center">
-						<!-- 
-							queda mejor si imagen <div class="modal-content">
-							<img src="../img/index/Promo_1.png" alt="" id="imagen-modal" class="img-fluid imagen">
-						</div> -->
-					</div>
-				</div>
-
-
 				<!-- Modal -->
+				<!-- Completar todos los modales de promociones -->
 				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 					<div class="modal-dialog modal-lg" role="document">
 						<div class="modal-content">
@@ -193,10 +181,6 @@ include("nav.php");
 							<div class="modal-body">
 								<div class="container">
 									<div class="row">
-										<!-- queda mejor si imagen 
-											<div class="col-md-6">
-											<img src="../img/mujer-pide-turno.jpg" alt="" class="img-fluid">
-										</div> -->
 										<div class="col-10 offset-1 flex-column">
 											<div class="row">
 												<h2>Acercate a TIENDA y obtene un 20% de descuento y 3 cuotas sin interes</h2>

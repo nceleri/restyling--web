@@ -2,6 +2,7 @@
     include ("nav.php");
   ?>
     <!-- usuarios financieros BCRA -->
+    <!-- *********************************************colocar carpeta de imagenes y apuntarla  *********************************************-->
         <div class="container h-auto d-flex justify-content-center mt-md-5 text-center">
             <div class="row mt-md-5">	
                 <div class="col-md-12 text-center my-4">
@@ -50,11 +51,6 @@
                     <img src="../img/BCRA/fiscal_fide.jpg" class="img-fluid">
                 </a>
             </div>
-            <!-- <div class="col-lg-3 my-4 ">
-                <a alt="" href="http://credifiar.com.ar/archivos_comunes/Condiciones_bonificaciones_2018.pdf" target="_blank" >
-                    <img src="../img/BCRA/costos_financieros.jpg" class="img-fluid">
-                </a>
-            </div> -->
             <div class="col-lg-4 my-4 ">
                 <a alt="" href="http://www.bcra.gob.ar/BCRAyVos/Usuarios_Financieros.asp" target="_blank" >
                     <img src="../img/BCRA/condicionesbonificaciones.png" class="img-fluid">

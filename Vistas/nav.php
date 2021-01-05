@@ -104,7 +104,7 @@
 							</div>
 						</li>
 
-						<!-- inicio de sesio -->
+						<!-- inicio de s -->
 						<li class="nav-item">
 							<a type="button" class="btn btn-outline-light btn-outline-light-top border border-white font-weight-bold" id="btn-ingreso"
 								 href="https://www.infotarjetas.com.ar/login.aspx?tid=28">
