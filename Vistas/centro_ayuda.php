@@ -4,17 +4,14 @@
     <div class="container-fluid m-superior-medio">
         <div class="row d-flex">
             <div class="col-12 ">
-                <h1 class="text-center mb-3" >
-                    Centro de Ayuda
-                </h1>
-                <hr>
-            </div>
-            <p class="col-6 text-center subtitulo-slider "> PREGUNTAS FRECUENTES</p>
-            <p class="col-6 text-center subtitulo-slider ">ACCESOS RAPIDOS</p>
-            
+                <h1 class="text-center mb-3" >CENTRO DE AYUDA</h1>
+            </div>           
+        </div>
+        <div class="row d-flex bg-credifiar">
+            <p class="col-7 text-center subtitulo-slider text-green">Preguntas Frecuentes</p>
+            <p class="col-5 text-center subtitulo-slider text-green">Accesos Rápidos</p>            
         </div>
     </div>
-
     <!-- ***************************************************************************************************************************************
         CENTRO DE AYUDA PARA RESPONSIVE
        *************************************************************************************************************************************** -->
@@ -23,7 +20,7 @@
         <div class="row">
 
                     
-            <div class="col-7 d-flex ">
+            <div class="col-8 d-flex ">
             <!-- COMIENZO ACORDEON -->                
                 <div class="panel-group" id="accordion">
                     <h3 class="text-center my-4 font-weight-bold ">TARJETA DE CRÉDITO</h3>
@@ -360,7 +357,7 @@
                 </div>
             </div>
 
-            <div class="col-5 d-flex ">
+            <div class="col-3 d-flex  ">
                 <div class="list-group ">
                     <!-- card -->
                     <div class="card pb-4 mt-4">
@@ -372,7 +369,7 @@
                             </p>
                         </div>
                         <div class="card-footer-centro-ayuda text-muted text-center" >
-                            <a href="../archivos/MEDIOS_DE_PAGO_ALTERNATIVOS.pdf" class="btn btn-outline-primary boton-ayuda">Buscar</a>
+                            <a href="https://www.infotarjetas.com.ar/login.aspx?tid=28" class="btn btn-outline-primary pildora-amarilla">Buscar</a>
                         </div>
                     </div>
                     <!-- card -->
@@ -385,7 +382,7 @@
                             </p>
                         </div>
                         <div class="card-footer-centro-ayuda text-muted text-center" >
-                            <a href="tarjeta_form.php" class="btn btn-outline-primary boton-ayuda" data-toggle="modal" data-target="#lugares-modal">Buscar</a>
+                            <a href="tarjeta_form.php" class="btn btn-outline-primary pildora-amarilla" data-toggle="modal" data-target="#lugares-modal">Buscar</a>
                         </div>
                         <!-- Modal -->
                         <div class="modal fade" id="lugares-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -404,7 +401,7 @@
                                                 </br>
                                                 <div><a class="font-weight-bold" style = "font-size: 18px;">Tarjeta de Crédito:</a>  0810-888-0080</div>
                                                 </br>
-                                                <div><a class="font-weight-bold" style = "font-size: 18px;">Contacta con Nosotros:  </a><a href="contacto.php" class="btn btn-outline-primary boton-ayuda">Aquí</a> </div>
+                                                <div><a class="font-weight-bold" style = "font-size: 18px;">Contacta con Nosotros:  </a><a href="contacto.php" class="btn btn-outline-primary pildora-amarilla">Aquí</a> </div>
                                             </ul>
                                         </div>
                                     </div>
@@ -415,7 +412,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- card -->
+                    <!-- card
                     <div class="card pb-4 mt-4">
                         <div class="card-body text-center">
                             <i class="fas fa-credit-card fa-7x iconos-ayuda"></i>
@@ -425,18 +422,18 @@
                             </p>
                         </div>
                         <div class="card-footer-centro-ayuda text-muted text-center" >
-                            <a href="tarjeta.php" class="btn btn-outline-primary boton-ayuda">Buscar</a>
+                            <a href="tarjeta.php" class="btn btn-outline-primary pildora-amarilla">Buscar</a>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- card -->
                     <div class="card pb-4 mt-4">
                         <div class="card-body text-center">
                             <i class="fas fa-hand-holding-usd fa-7x iconos-ayuda"></i>
-                            <h5 class="card-title-credito-centro-ayuda my-4">Productos y Servicios</h5>
-                            <p class="text-left">Todos los productos y servicios que ofrece Credifiar.</p>
+                            <h5 class="card-title-credito-centro-ayuda my-4">Medios de Pago Alternativos</h5>
+                            <p class="text-left">Cónoce todos los medios de pagos habilitados</p>
                         </div>
                         <div class="card-footer-centro-ayuda text-muted text-center" >
-                            <a href="index.php#promociones" class="btn btn-outline-primary boton-ayuda">Buscar</a>
+                            <a href="../archivos/MEDIOS_DE_PAGO_ALTERNATIVOS.pdf" class="btn btn-outline-primary pildora-amarilla">Buscar</a>
                         </div>
                     </div>
                     <!-- card -->
@@ -447,8 +444,56 @@
                             <p class="text-left">Promociones, requisitos, beneficios y costos.</p>
                         </div>
                         <div class="card-footer-centro-ayuda text-muted text-center" >
-                            <a href="tarjeta.php#comercios_tarjeta" class="btn btn-outline-primary boton-ayuda">Buscar</a>
+                            <a href="tarjeta.php#comercios_tarjeta" class="btn btn-outline-primary pildora-amarilla" data-toggle="modal" data-target="#exampleModalCenter">Buscar</a>
+                        </div> 
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">                            
+                                        <div class="jumbotron bg-claro-transparente">
+                                            <p class="tituloVentajas">Comercios Adheridos</p>
+                                            <hr class="my-2">
+                                            <div class="container">
+                                                <div class="row ">
+                                                    <div class="col">
+                                                        <form action="">
+                                                            <div class="row">
+                                                                <div class="form-group col-6">
+                                                                    <label for="exampleFormControlSelect1">Rubro</label>
+                                                                    <select class="form-control" id="exampleFormControlSelect1">
+                                                                        <option>C1</option>
+                                                                        <option>C2</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="form-group col-6">
+                                                                    <label for="exampleFormControlSelect1">Localidad</label>
+                                                                    <select class="form-control" id="exampleFormControlSelect1">
+                                                                        <option>C1</option>
+                                                                        <option>C2</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="lead">
+                                            <a class="btn pildora-amarilla" href="#" role="button">Buscar</a>
+                                        </p>                                    
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                      
                     </div>
                     <!-- card -->
                     <div class="card pb-4 mt-4">
@@ -458,7 +503,7 @@
                             <p class="text-left">Trabajá con nosotros,Casa Credifiar, concursos.</p>
                         </div>
                         <div class="card-footer-centro-ayuda text-muted text-center" >
-                            <a class="btn btn-outline-primary boton-ayuda"  data-toggle="modal" data-target="#nuestraCultura-modal">Buscar</a>
+                            <a class="btn btn-outline-primary pildora-amarilla"  data-toggle="modal" data-target="#nuestraCultura-modal">Buscar</a>
                         </div>
                         <!-- Modal -->
                         <div class="modal fade" id="nuestraCultura-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -473,11 +518,11 @@
                                     <div class="modal-body">
                                         <div class="container-fluid">
                                             <ul class="text-left">
-                                                <div><a class="font-weight-bold" style = "font-size: 18px;">Información:</a> <a href="empresa.php" class="btn btn-outline-primary boton-ayuda">Enviar CV</a></div>
+                                                <div><a class="font-weight-bold" style = "font-size: 18px;">Información:</a> <a href="empresa.php" class="btn btn-outline-primary pildora-amarilla">Enviar CV</a></div>
                                                 </br>
-                                                <div><a class="font-weight-bold" style = "font-size: 18px;">La Empresa:</a> <a href="empresa.php" class="btn btn-outline-primary boton-ayuda">Aquí</a></div>
+                                                <div><a class="font-weight-bold" style = "font-size: 18px;">La Empresa:</a> <a href="empresa.php" class="btn btn-outline-primary pildora-amarilla">Aquí</a></div>
                                                 </br>
-                                                <div><a class="font-weight-bold" style = "font-size: 18px;">Contacta con Nosotros:  </a><a href="contacto.php" class="btn btn-outline-primary boton-ayuda">Aquí</a></div>
+                                                <div><a class="font-weight-bold" style = "font-size: 18px;">Contacta con Nosotros:  </a><a href="contacto.php" class="btn btn-outline-primary pildora-amarilla">Aquí</a></div>
                                             </ul>
                                         </div>
                                     </div>
