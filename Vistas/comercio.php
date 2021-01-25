@@ -21,7 +21,7 @@
     </div>
 
     <!-- PLANES DE CUOTA  -->
-    <div id="requisitos_tarjeta" class="container-fluid p-0 m-0 alto d-flex  mt-md-0" >
+    <div id="requisitos_comercio" class="container-fluid p-0 m-0 alto d-flex  mt-md-0" >
         <div class="row m-0 p-0 fondo-planes-comercio align-content-center justify-content-start">
              <div class="col-md-8">
                 <div class="texto-banners">
@@ -45,23 +45,23 @@
                                     <div class="container-fluid">
                                         <ul class="text-left">
                                             <div>
-                                                <a class="font-weight-bold" >PLANES CON TU TARJETA DE CRÉDITO:</a>
-                                                3,6,12,18 Y HASTA PLANES EN 24 CUOTAS!!!!BONIFICACIONES INCREIBLES A NUESTROS CLIENTES!!!
+                                                <a class="" >● PLANES PARA EMPLEADOS CON RECIBO DE SUELDO</a>
                                             </div>
                                             <br>
                                             <div>
-                                                <a class="font-weight-bold" >CRÉDITOS DE CONSUMO:</a>
-                                                PLANES DE HASTA 12 CUOTAS, CON LA TASA MÁS COMPETITIVA DEL MERCADO!!!
+                                                <a class="" >● PLANES PARA CLIENTES QUE TENGAN UNA TARJETA DE CRÉDITO</a>
                                             </div>
                                             <br>
                                             <div>
-                                                <a class="font-weight-bold" >PIONEROS EN PLAN DNI:</a>
-                                                OFREZCA A SUS CLIENTES LA FINANCIACIÓN HASTA EN 6 CUOTAS A SOLA FIRMA Y SIN ENTREGA !!
+                                                <a class="" >● PLANES PARA JUBILADOS Y PENSIONADOS</a>
                                             </div>
                                             <br>
                                             <div>
-                                                <a class="font-weight-bold" >CONSÚLTENOS A:</a>
-                                                info@credifiar.com.ar Y LE ENVIAMOS NUESTRO ASESOR COMERCIAL AL INSTANTE !!
+                                                <a class="" >● PLANES SOLO CON EL DNI</a>
+                                            </div>
+                                            <br>
+                                            <div>
+                                                <a class="" >● PLANES CON CUOTAS SIN INTERÉS</a>
                                             </div>
                                         </ul>
                                     </div>

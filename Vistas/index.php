@@ -140,29 +140,11 @@ include("nav.php");
 					</a>
 				</div>
 				<div class="contenedor-imagen col-md-6">
-					<a href="#" data-toggle="modal" data-target="#exampleModal">
+					<a href="#" data-toggle="modal" data-target="#exampleModal2">
 						<img src="../img/index/PromoSuper_fondo.png" class="img-fluid imagen" alt="">
 						<div class="carousel-caption col-md-7 offset-md-5 pl-4">
 							<h4 class="text-green" >SUPERMERCADOS</h4>
 							<p class="text-light font-weight-bold d-none d-md-block">3 cuotas sin interes y 10% de descuento</p>
-						</div>
-					</a>
-				</div>
-				<div class="contenedor-imagen col-md-6">
-					<a href="#" data-toggle="modal" data-target="#exampleModal">
-						<img src="../img/index/Promo_2.png" class="img-fluid imagen" alt="">
-						<div class="carousel-caption col-md-7 offset-md-5 pl-4">
-							<h4 class="text-green" >MES DE MAMÁ</h4>
-							<p class="text-light font-weight-bold d-none d-md-block">Mira los beneficios que tenemos para ella</p>
-						</div>
-					</a>
-				</div>
-				<div class="contenedor-imagen col-md-6">
-					<a href="#" data-toggle="modal" data-target="#exampleModal">
-						<img src="../img/index/Promo_4.png" class="img-fluid imagen" alt="">
-						<div class="carousel-caption col-md-7 offset-md-5 pl-4">
-							<h4 class="text-green" >FARMACIAS</h4>
-							<p class="text-light font-weight-bold d-none d-md-block">Conocé los locales adheridos</p>
 						</div>
 					</a>
 				</div>
@@ -173,7 +155,29 @@ include("nav.php");
 					<div class="modal-dialog modal-lg" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLabel">Pomo día del padre</h5>
+								<h5 class="modal-title" id="exampleModalLabel">COMERCIOS</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<div class="container-fluid">
+								<div class="row">
+									<img src="../img/1x/promocion-deporte1.png" alt="" class="img-fluid">
+									<img src="../img/1x/promocion-deporte2.png" alt="" class="img-fluid">
+								</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">SUPERMERCADOS</h5>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 									<span aria-hidden="true">&times;</span>
 								</button>
@@ -181,14 +185,7 @@ include("nav.php");
 							<div class="modal-body">
 								<div class="container">
 									<div class="row">
-										<div class="col-10 offset-1 flex-column">
-											<div class="row">
-												<h2>Acercate a TIENDA y obtene un 20% de descuento y 3 cuotas sin interes</h2>
-											</div>
-											<div id="legales" class="row">
-												Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci aut eos deleniti amet ratione in dolore sunt beatae tenetur, eligendi quae rem reiciendis suscipit libero aliquid quia excepturi veniam officia!
-											</div>
-										</div>
+										<img src="../img/1x/promocion-super.png" alt="" class="img-fluid">	
 									</div>
 								</div>
 							</div>
@@ -254,20 +251,6 @@ include("nav.php");
 			<div class="col-12 mb-sm-3">
 				<div class="card pb-4 card-border">
 					<div class="card-body">
-						<h5 class="card-title-ubicaciones font-weight-bold">Sucursal Parana</h5>
-						<p class="card-text-ubicaciones p-0 m-0">Peru 67</p>
-						<p class="card-text-ubicaciones p-0 m-0">3100 - Parana</p>
-						<p class="card-text-ubicaciones p-0 m-0">Lunes a Viernes de 11 a 18 hs</p>
-						<p class="card-text-ubicaciones p-0 m-0">Sabado de 9 a 13 hs</p>
-					</div>
-					<div class="card-footer-ubicaciones text-muted text-center">
-						<a href="https://goo.gl/maps/rjLNoPHPm34Am4Yv6" class="btn pildora-amarilla" target="_blank">Ubicación</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-12 mb-sm-3">
-				<div class="card pb-4 card-border">
-					<div class="card-body">
 						<h5 class="card-title-ubicaciones font-weight-bold">Sucursal Ceres</h5>
 						<p class="card-text-ubicaciones p-0 m-0">Av Mayo 286</p>
 						<p class="card-text-ubicaciones p-0 m-0">2340 - Ceres</p>
@@ -296,7 +279,6 @@ include("nav.php");
 				<a class="list-group-item mt-3 list-group-item-action active" id="list-central-list" data-toggle="list" href="#list-central" role="tab" aria-controls="central">Casa Central</a>
 				<a class="list-group-item mt-3 list-group-item-action" id="list-aristobulo-list" data-toggle="list" href="#list-aristobulo" role="tab" aria-controls="aristobulo">Sucursal Aristóbulo</a>
 				<a class="list-group-item mt-3 list-group-item-action" id="list-esperanza-list" data-toggle="list" href="#list-esperanza" role="tab" aria-controls="esperanza">Sucursal Esperanza</a>
-				<a class="list-group-item mt-3 list-group-item-action" id="list-parana-list" data-toggle="list" href="#list-parana" role="tab" aria-controls="parana">Sucursal Paraná</a>
 				<a class="list-group-item mt-3 list-group-item-action" id="list-ceres-list" data-toggle="list" href="#list-ceres" role="tab" aria-controls="ceres">Sucursal Ceres</a>
 				<br>
 			</div>
@@ -327,12 +309,6 @@ include("nav.php");
 					<div>Sabado de 8 a 12 hs.</div>
 				</div>
 
-
-				<div class="detalle-locales" id="detalle-parana">
-					<div><a class="font-weight-bold">Sucursal Parana:</a> Urquiza 1087 - Parana</div>
-					<div>Lunes a Viernes de 11 a 18 hs.</div>
-					<div>Sabado de 9 a 13 hs.</div>
-				</div>
 			</div>
 			<div class="tab-content" id="nav-tabContent">
 				<div class="tab-pane fade show active" id="list-central" role="tabpanel" aria-labelledby="list-central-list">
@@ -343,9 +319,6 @@ include("nav.php");
 				</div>
 				<div class="tab-pane fade" id="list-esperanza" role="tabpanel" aria-labelledby="list-esperanza-list">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27230.124041517316!2d-60.929339999999996!3d-31.448122!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5131635e276cd%3A0xc7531ee920e58185!2s25%20de%20Mayo%201414%2C%20S3080BQT%20Esperanza%2C%20Santa%20Fe%2C%20Argentina!5e0!3m2!1ses!2sus!4v1593030107403!5m2!1ses!2sus" width="800" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-				</div>
-				<div class="tab-pane fade" id="list-parana" role="tabpanel" aria-labelledby="list-parana-list">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27146.66470790143!2d-60.531912000000005!3d-31.734108000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b4527ee4942b63%3A0xcade28f595607641!2zUGVyw7ogNjcsIEUzMTAwSE1BIFBhcmFuw6EsIEVudHJlIFLDrW9z!5e0!3m2!1ses!2sar!4v1593030151592!5m2!1ses!2sar" width="800" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 				</div>
 				<div class="tab-pane fade" id="list-ceres" role="tabpanel" aria-labelledby="list-ceres-list">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27675.66790923936!2d-61.943021!3d-29.879887000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9436788f71b87b7f%3A0xec041ed7969bb655!2sAv.%20de%20Mayo%20286%2C%20Ceres%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1593029379633!5m2!1ses!2sar" width="800" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>

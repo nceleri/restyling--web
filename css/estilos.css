@@ -177,7 +177,11 @@ body{
 }
 
 .texto-empresa{
+	color: white;
 	font-size: 1.7rem;
+}
+.bg-empresa{
+	background: rgba(110, 111, 175, 0.6);
 }
 
 .counter{	
