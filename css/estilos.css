@@ -581,6 +581,15 @@ body{
 	/*	bottom: auto;  */
 }
 
+.texto-requisitos{
+	padding-left: 0	;
+	color: #1B52A2;
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 8rem;
+	/*	bottom: auto;  */
+}
+
   /* <---------------------------------- ESTILOS prestamos_personales.php -------------------------------------->*/
 .fondo-imagen-prestamos {
   
